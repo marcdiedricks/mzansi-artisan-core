@@ -1,0 +1,55 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM06-L01",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-06",
+  "module_title": "Cutting and Welding",
+  "topic": "KM-06-KT01",
+  "title": "Thermal Application",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Explain at knowledge level the effects of heating and cooling on metals, the purpose of controlled thermal treatment, and why thermal work requires authorised procedures, competent supervision and workplace safety controls.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-06",
+    "knowledge_topic": "KM-06-KT01 — Thermal application",
+    "topic_weight": "10%",
+    "verified_topic_elements": [
+      "KT0101 — Theory of contraction and expansion — 30%",
+      "KT0102 — Types of hazards such as fire, equipment, ventilation, storage and consumables — 30%",
+      "KT0103 — Heat treatment methods and applications — 40%"
+    ],
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "source_location": "KM-06-KT01, curriculum page 50",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T4",
+  "safety_boundary": "Knowledge learning and safety awareness only. This lesson does not provide instructions for operating heating, welding or cutting equipment, handling fuel gases, performing heat treatment, setting temperatures, selecting process parameters, or carrying out practical thermal work. Practical activities belong in authorised occupational training and workplace processes under competent supervision.",
+  "sections": [
+    {"heading":"1. What thermal application means","body":"Thermal application concerns how heat and cooling affect metal during fabrication. At knowledge level, the learner studies why temperature changes can alter dimensions, properties and the behaviour of fabricated components."},
+    {"heading":"2. Expansion and contraction","body":"Metals can change dimension as temperature changes. Heating is associated with expansion and cooling with contraction. In fabrication, these effects matter because uncontrolled dimensional change can affect fit, alignment and the final condition of an assembly."},
+    {"heading":"3. Thermal hazards require controls","body":"The curriculum identifies hazards associated with fire, equipment, ventilation, storage and consumables. The learning principle is that thermal work must be governed by approved workplace controls and competent supervision rather than improvisation."},
+    {"heading":"4. Heat treatment as a controlled process","body":"Heat treatment is used to influence material properties through controlled thermal cycles. Different methods serve different purposes. The Companion explains the principle only and does not provide practical treatment procedures, temperatures, timings or cooling instructions."},
+    {"heading":"5. Pre-heating and post-weld treatment concepts","body":"The curriculum requires understanding of the purposes and applications of thermal treatment before or after joining. At knowledge level, learners should recognise that such decisions depend on material, engineering requirements and approved procedures."},
+    {"heading":"6. Material structure and transformation","body":"Changes in temperature can affect the internal structure and properties of metals. Concepts such as phase transformation, cooling behaviour and transformation diagrams help explain why controlled thermal treatment matters. Their practical application requires formal technical instruction and approved data."},
+    {"heading":"7. Incorrect thermal control has consequences","body":"Uncontrolled heating or cooling can adversely affect a component or its properties. Learners should therefore understand that thermal decisions must be based on verified technical requirements rather than assumptions."},
+    {"heading":"8. Stop and refer uncertainty","body":"Where material information, approved procedures, equipment status or authority is unclear, the safe principle is to stop and refer the matter to a competent trainer or supervisor rather than attempt practical thermal work."}
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {"id":"Q1","question":"What can temperature change cause in metal?","options":["Expansion or contraction","No dimensional change","Automatic certification"],"answer":"Expansion or contraction"},
+      {"id":"Q2","question":"Why are thermal hazards controlled?","options":["Because thermal work can involve hazards requiring approved workplace controls","Because controls are optional","Only to improve appearance"],"answer":"Because thermal work can involve hazards requiring approved workplace controls"},
+      {"id":"Q3","question":"How should practical heat-treatment decisions be made?","options":["Using approved technical requirements and competent supervision","By guessing","By copying any previous job"],"answer":"Using approved technical requirements and competent supervision"},
+      {"id":"Q4","question":"Does this lesson authorise practical heating, welding, cutting or heat-treatment work?","options":["Yes","No"],"answer":"No"}
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "pending-sa-first-vetting",
+    "resource_priority": "South Africa first",
+    "focus_required": "South African publicly accessible theory or safety-awareness resource supporting thermal expansion/contraction, heat-treatment concepts or thermal-work safety without practical hazardous-process instructions."
+  },
+  "verification_status": "authoritative-KT01-elements-mapped-content-media-and-real-device-tests-pending",
+  "freeze_status": "NOT_FROZEN"
+}
