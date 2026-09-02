@@ -1,0 +1,18 @@
+{
+  "schema": "MAF-UTP-0.1",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "trade": "Boilermaker",
+  "country": "ZA",
+  "version": "0.1.0",
+  "status": "brownfield-pilot",
+  "default_language": "en",
+  "languages": ["en"],
+  "created": "2026-09-02",
+  "last_verified": null,
+  "source_mode": "existing-asset-first",
+  "source_repository": "marcdiedricks/mzansi-boilermaker",
+  "files": {
+    "trade": "trade.json",
+    "pilot_lesson": "learning/KM-04/lesson-01.json"
+  }
+}
