@@ -1,5 +1,5 @@
 // Mzansi Artisan Core — offline foundation with safe update behaviour
-const CACHE_NAME = 'mzansi-artisan-core-v0.1-15';
+const CACHE_NAME = 'mzansi-artisan-core-v0.1-16';
 const CORE_ASSETS = [
   './',
   './index.html',
