@@ -6,100 +6,29 @@
   <meta name="theme-color" content="#1f2937">
   <title>Mzansi Artisan Core — Lesson Test</title>
   <style>
-    body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f5;color:#18181b}
-    main{max-width:680px;margin:auto;padding:24px 18px}
-    .card{background:white;border:1px solid #d4d4d8;border-radius:14px;padding:20px;box-shadow:0 2px 8px #0000000d;margin-bottom:16px}
-    .eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.08em;color:#52525b}
-    h1{font-size:1.6rem;margin:.35rem 0 1rem} h2{font-size:1.25rem;margin:.3rem 0 1rem} h3{font-size:1rem;margin:1.1rem 0 .35rem}
-    #status,#lessonStatus{font-weight:800;padding:10px 12px;border-radius:10px;background:#e4e4e7}
-    dl{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;margin-top:18px}
-    dt{font-weight:700} dd{margin:0;overflow-wrap:anywhere}
-    .ok{background:#dcfce7!important}.fail{background:#fee2e2!important}
-    .boundary{padding:12px;border-left:4px solid #71717a;background:#f4f4f5;margin:14px 0}
-    .section{border-top:1px solid #e4e4e7;padding-top:4px;margin-top:14px}
+    body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f5;color:#18181b} main{max-width:680px;margin:auto;padding:24px 18px}
+    .card{background:white;border:1px solid #d4d4d8;border-radius:14px;padding:20px;box-shadow:0 2px 8px #0000000d;margin-bottom:16px}.eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.08em;color:#52525b}
+    h1{font-size:1.6rem;margin:.35rem 0 1rem} h2{font-size:1.25rem;margin:.3rem 0 1rem} h3{font-size:1rem;margin:1.1rem 0 .35rem} #status,#lessonStatus,#checkResult{font-weight:800;padding:10px 12px;border-radius:10px;background:#e4e4e7}
+    dl{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;margin-top:18px} dt{font-weight:700} dd{margin:0;overflow-wrap:anywhere}.ok{background:#dcfce7!important}.fail{background:#fee2e2!important}.boundary{padding:12px;border-left:4px solid #71717a;background:#f4f4f5;margin:14px 0}.section{border-top:1px solid #e4e4e7;padding-top:4px;margin-top:14px}
+    fieldset{border:0;border-top:1px solid #e4e4e7;padding:16px 0 4px;margin:0} legend{font-weight:800;padding:0 0 8px} label{display:block;padding:10px;border:1px solid #d4d4d8;border-radius:10px;margin:8px 0;cursor:pointer} input{margin-right:8px} button{width:100%;padding:13px;border:0;border-radius:10px;font-weight:800;font-size:1rem;margin:12px 0;background:#18181b;color:white} #checkResult{margin-top:8px}
   </style>
 </head>
-<body>
-<main>
-  <section class="card">
-    <div class="eyebrow">MAF-02-12 • UNIVERSAL LESSON RENDER TEST</div>
-    <h1>Mzansi Artisan Core</h1>
-    <div id="status">LOADING TRADE PACK…</div>
-    <dl id="details" hidden>
-      <dt>Trade</dt><dd id="trade"></dd>
-      <dt>Trade Pack ID</dt><dd id="packId"></dd>
-      <dt>Schema</dt><dd id="schema"></dd>
-      <dt>Status</dt><dd id="packStatus"></dd>
-      <dt>Country</dt><dd id="country"></dd>
-    </dl>
-  </section>
-
-  <section class="card" id="lessonCard">
-    <div class="eyebrow">KM-05 • LESSON 1</div>
-    <h2 id="lessonTitle">Loading lesson…</h2>
-    <div id="lessonStatus">LOADING LESSON…</div>
-    <p id="objective"></p>
-    <div id="safety" class="boundary" hidden></div>
-    <div id="lessonSections"></div>
-  </section>
+<body><main>
+  <section class="card"><div class="eyebrow">MAF-02-14 • LESSON + LEARNING CHECK TEST</div><h1>Mzansi Artisan Core</h1><div id="status">LOADING TRADE PACK…</div><dl id="details" hidden><dt>Trade</dt><dd id="trade"></dd><dt>Trade Pack ID</dt><dd id="packId"></dd><dt>Schema</dt><dd id="schema"></dd><dt>Status</dt><dd id="packStatus"></dd><dt>Country</dt><dd id="country"></dd></dl></section>
+  <section class="card"><div class="eyebrow">KM-05 • LESSON 1</div><h2 id="lessonTitle">Loading lesson…</h2><div id="lessonStatus">LOADING LESSON…</div><p id="objective"></p><div id="safety" class="boundary" hidden></div><div id="lessonSections"></div></section>
+  <section class="card" id="checkCard" hidden><div class="eyebrow">KNOWLEDGE SELF-CHECK</div><h2>Learning Check</h2><p>Select one answer for each question. This is a learning check only and does not certify occupational competence.</p><form id="checkForm"><div id="questions"></div><button type="submit">Check my answers</button></form><div id="checkResult" hidden></div></section>
 </main>
 <script type="module">
-  import { TradePackLoader } from './core/trade-pack-loader.js';
-
-  const status = document.getElementById('status');
-  const details = document.getElementById('details');
-  const lessonStatus = document.getElementById('lessonStatus');
-
-  try {
-    const loader = new TradePackLoader();
-    const manifest = await loader.load('./trade-packs/boilermaker/manifest.json');
-
-    status.textContent = 'TRADE PACK LOADED';
-    status.classList.add('ok');
-    document.getElementById('trade').textContent = manifest.trade;
-    document.getElementById('packId').textContent = manifest.trade_pack_id;
-    document.getElementById('schema').textContent = manifest.schema;
-    document.getElementById('packStatus').textContent = manifest.status;
-    document.getElementById('country').textContent = manifest.country;
-    details.hidden = false;
-
-    const response = await fetch('./trade-packs/boilermaker/learning/KM-05/lesson-01.json');
-    if (!response.ok) throw new Error(`Lesson unavailable (${response.status})`);
-    const lesson = await response.json();
-    if (!lesson.lesson_id || !lesson.title || !Array.isArray(lesson.sections)) throw new Error('Lesson structure invalid');
-
-    document.getElementById('lessonTitle').textContent = lesson.title;
-    document.getElementById('objective').textContent = lesson.objective || '';
-    const safety = document.getElementById('safety');
-    safety.textContent = lesson.safety_boundary || '';
-    safety.hidden = !lesson.safety_boundary;
-
-    const container = document.getElementById('lessonSections');
-    lesson.sections.forEach((section) => {
-      const block = document.createElement('section');
-      block.className = 'section';
-      const heading = document.createElement('h3');
-      heading.textContent = section.heading;
-      const body = document.createElement('p');
-      body.textContent = section.body;
-      block.append(heading, body);
-      container.appendChild(block);
-    });
-
-    lessonStatus.textContent = `LESSON LOADED • ${lesson.lesson_id}`;
-    lessonStatus.classList.add('ok');
-  } catch (error) {
-    if (!status.classList.contains('ok')) {
-      status.textContent = `LOAD FAILED: ${error.message}`;
-      status.classList.add('fail');
-    }
-    lessonStatus.textContent = `LESSON LOAD FAILED: ${error.message}`;
-    lessonStatus.classList.add('fail');
-  }
-
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./service-worker.js').catch(console.error);
-  }
-</script>
-</body>
-</html>
+import { TradePackLoader } from './core/trade-pack-loader.js';
+const status=document.getElementById('status'),details=document.getElementById('details'),lessonStatus=document.getElementById('lessonStatus');
+try{
+ const loader=new TradePackLoader(); const manifest=await loader.load('./trade-packs/boilermaker/manifest.json');
+ status.textContent='TRADE PACK LOADED';status.classList.add('ok');document.getElementById('trade').textContent=manifest.trade;document.getElementById('packId').textContent=manifest.trade_pack_id;document.getElementById('schema').textContent=manifest.schema;document.getElementById('packStatus').textContent=manifest.status;document.getElementById('country').textContent=manifest.country;details.hidden=false;
+ const response=await fetch('./trade-packs/boilermaker/learning/KM-05/lesson-01.json');if(!response.ok)throw new Error(`Lesson unavailable (${response.status})`);const lesson=await response.json();if(!lesson.lesson_id||!lesson.title||!Array.isArray(lesson.sections))throw new Error('Lesson structure invalid');
+ document.getElementById('lessonTitle').textContent=lesson.title;document.getElementById('objective').textContent=lesson.objective||'';const safety=document.getElementById('safety');safety.textContent=lesson.safety_boundary||'';safety.hidden=!lesson.safety_boundary;
+ const container=document.getElementById('lessonSections');lesson.sections.forEach(s=>{const block=document.createElement('section');block.className='section';const h=document.createElement('h3');h.textContent=s.heading;const p=document.createElement('p');p.textContent=s.body;block.append(h,p);container.appendChild(block)});lessonStatus.textContent=`LESSON LOADED • ${lesson.lesson_id}`;lessonStatus.classList.add('ok');
+ const check=lesson.learning_check;if(check&&Array.isArray(check.questions)){const qbox=document.getElementById('questions');check.questions.forEach((q,i)=>{const fs=document.createElement('fieldset');const lg=document.createElement('legend');lg.textContent=`${i+1}. ${q.question}`;fs.appendChild(lg);q.options.forEach(opt=>{const lab=document.createElement('label');const radio=document.createElement('input');radio.type='radio';radio.name=q.id;radio.value=opt;lab.append(radio,document.createTextNode(opt));fs.appendChild(lab)});qbox.appendChild(fs)});document.getElementById('checkCard').hidden=false;
+ document.getElementById('checkForm').addEventListener('submit',e=>{e.preventDefault();let score=0,answered=0;check.questions.forEach(q=>{const selected=document.querySelector(`input[name="${q.id}"]:checked`);if(selected){answered++;if(selected.value===q.answer)score++}});const result=document.getElementById('checkResult');result.hidden=false;result.className='';if(answered<check.questions.length){result.textContent=`Please answer all ${check.questions.length} questions. ${answered} answered so far.`;return}const passed=score>=check.completion_score;result.textContent=passed?`LEARNING CHECK PASSED • ${score}/${check.questions.length}`:`KEEP LEARNING • ${score}/${check.questions.length} correct. Review the lesson and try again.`;result.classList.add(passed?'ok':'fail')});}
+}catch(error){if(!status.classList.contains('ok')){status.textContent=`LOAD FAILED: ${error.message}`;status.classList.add('fail')}lessonStatus.textContent=`LESSON LOAD FAILED: ${error.message}`;lessonStatus.classList.add('fail')}
+if('serviceWorker'in navigator){navigator.serviceWorker.register('./service-worker.js').catch(console.error)}
+</script></body></html>
