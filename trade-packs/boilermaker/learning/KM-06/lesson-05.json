@@ -1,0 +1,58 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM06-L05",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-06",
+  "module_title": "Cutting and Welding",
+  "topic": "KM-06-KT05",
+  "title": "Down-hand Welding — Theory and Safety Awareness",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Recognise at knowledge level what the down-hand welding position means, how the named welding-process families relate to this position, and why approved procedures, quality requirements and safety controls govern practical welding work.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-06",
+    "knowledge_topic": "KM-06-KT05 — Gas, Arc, TIG, MIG welding in a down hand position",
+    "topic_weight": "10%",
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "supporting_source": "DHET NC(V) Welding Level 2 Subject Guidelines",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T4",
+  "safety_boundary": "Knowledge and safety-awareness only. This lesson does not teach welding setup, machine or gas settings, ignition, electrode or consumable selection, torch or electrode movement, welding sequence, joint preparation procedures, or how to perform a weld. Practical welding belongs in authorised occupational training under competent supervision.",
+  "sections": [
+    {"heading":"1. What down-hand welding means","body":"Down-hand describes a welding position in which the work and weld orientation allow the welding operation to be performed from above the joint. At knowledge level, the important point is recognising the position and its relationship to the approved drawing, procedure and process."},
+    {"heading":"2. Welding-process families","body":"The occupational curriculum associates gas, arc, TIG and MIG welding with this knowledge topic. Learners should recognise these as different process families and understand that each has its own equipment, consumables, controls and approved applications."},
+    {"heading":"3. Position matters","body":"Welding position affects how a welding task is classified and controlled. The required position must therefore be identified from the applicable job information and approved procedure rather than assumed."},
+    {"heading":"4. Controlled information comes first","body":"Drawings, welding symbols, specifications, codes, data sheets and approved procedures communicate the technical requirements for welding work. At knowledge level, learners should understand that these requirements govern the work and take priority over informal practice or guesswork."},
+    {"heading":"5. Safety remains essential","body":"Welding can involve serious hazards including heat, intense light, fumes, electrical energy, hot material and fire risk. Practical welding therefore requires appropriate training, workplace controls, suitable protective measures and competent supervision."},
+    {"heading":"6. Quality is assessed against requirements","body":"A completed weld is judged against applicable quality requirements rather than appearance alone. Learners should recognise that inspection and testing may be required and that unacceptable conditions must be dealt with through the authorised workplace process."},
+    {"heading":"7. Knowledge is not practical authorisation","body":"Understanding welding positions and process families prepares a learner for supervised occupational development. It does not establish practical competence or permission to operate welding equipment independently."},
+    {"heading":"8. Stop and refer","body":"If the required welding position, process, drawing, specification, material information or approved procedure is unclear, stop and refer the matter to a competent trainer or supervisor before practical work is attempted."}
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {"id":"Q1","question":"What should determine the required welding position and technical requirements?","options":["Approved job information and procedures","Guesswork","Whichever position seems easiest"],"answer":"Approved job information and procedures"},
+      {"id":"Q2","question":"Which process families are named in this curriculum topic?","options":["Gas, Arc, TIG and MIG","Only MIG","Only gas welding"],"answer":"Gas, Arc, TIG and MIG"},
+      {"id":"Q3","question":"Why are welding safety controls necessary?","options":["Welding can involve serious hazards requiring controlled practical training","They are optional","Only to protect equipment"],"answer":"Welding can involve serious hazards requiring controlled practical training"},
+      {"id":"Q4","question":"Does completing this lesson authorise independent practical welding?","options":["Yes","No"],"answer":"No"}
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "sa-first-vetted-public-vocational-reference-selected-device-access-test-required",
+    "resource_priority": "South Africa first; if no suitable SA resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe",
+    "title": "Welding Level 2 — Subject Guidelines",
+    "provider": "Department of Higher Education and Training (DHET)",
+    "country": "South Africa",
+    "url": "https://www.dhet.gov.za/National%20Certificates%20NQF%20Level%202/NC%28Vocational%29%20Subject%20Guidelines%20Level%202/Engineering%20and%20Related%20Design/Welding.pdf",
+    "language": "English",
+    "focus": "Official South African vocational subject guideline confirming down-hand welding as part of the learning scope for shielded metal arc, oxy-acetylene gas and MIG welding. The Companion uses it only as a curriculum-support reference for recognising the vocational context and position terminology.",
+    "safety_scope": "Reference only. The Companion does not reproduce or teach practical welding procedures, settings, equipment operation or technique from the source.",
+    "verified_date": "2026-09-02",
+    "vetting_note": "Selected under the locked Golden Rules: South Africa searched first; official DHET vocational teaching source; free/public; directly relevant to down-hand welding. Any operational material within the source is outside the Companion lesson boundary and is not reproduced as instruction. Real-device access still requires verification."
+  },
+  "verification_status": "authoritative-KT05-mapped-SA-first-DHET-vocational-reference-selected-render-resource-learning-check-offline-tests-pending",
+  "freeze_status": "NOT_FROZEN"
+}
