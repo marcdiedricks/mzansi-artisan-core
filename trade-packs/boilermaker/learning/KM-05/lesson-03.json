@@ -13,16 +13,8 @@
     "module_code": "651302-000-01-KM-05",
     "knowledge_topic": "KM-05-KT03 — Joining of complex assemblies",
     "topic_weight": "30%",
-    "verified_topic_elements": [
-      "KT0301 — Concepts and principles of joining complex assemblies — 30%",
-      "KT0302 — Assembling and fastening methods for complex assemblies — 40%",
-      "KT0303 — Lay-out and fit complex assemblies — 30%"
-    ],
-    "internal_assessment_criteria": [
-      "IAC0301 — Describe the concepts and principles of joining complex assemblies — 30%",
-      "IAC0302 — Interpret information from drawings and specifications of complex assemblies and apply relevant knowledge-level calculations — 40%",
-      "IAC0303 — Identify, discuss and illustrate assembling and fastening methods for complex assemblies — 30%"
-    ],
+    "verified_topic_elements": ["KT0301 — Concepts and principles of joining complex assemblies — 30%","KT0302 — Assembling and fastening methods for complex assemblies — 40%","KT0303 — Lay-out and fit complex assemblies — 30%"],
+    "internal_assessment_criteria": ["IAC0301 — Describe the concepts and principles of joining complex assemblies — 30%","IAC0302 — Interpret information from drawings and specifications of complex assemblies and apply relevant knowledge-level calculations — 40%","IAC0303 — Identify, discuss and illustrate assembling and fastening methods for complex assemblies — 30%"],
     "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
     "source_location": "KM-05-KT03, curriculum page 45",
     "verification_date": "2026-09-02"
@@ -51,9 +43,15 @@
   },
   "media": {
     "required": true,
-    "status": "pending-vetting",
-    "focus_required": "Safe theory resource supporting assembly drawing interpretation, component relationships or engineering-drawing representation without hazardous fabrication instruction."
+    "status": "vetted-theory-resource-selected",
+    "title": "Working Drawings and Assemblies",
+    "provider": "McGill University — Engineering Design",
+    "url": "https://www.mcgill.ca/engineeringdesign/step-step-design-process/basics-graphics-communication/working-drawings-and-assemblies",
+    "language": "English",
+    "focus": "University theory reference explaining assembly drawings, subassemblies, component identification, parts lists and how drawing views communicate relationships between parts.",
+    "safety_scope": "Theory and drawing interpretation only. Use this resource to understand how components and subassemblies are represented and related in controlled drawings. It does not authorise fabrication, joining, equipment use or other practical assembly work.",
+    "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT03-elements-and-IAC-traceability-mapped-content-acceptance-media-and-real-device-tests-pending",
+  "verification_status": "authoritative-KT03-elements-and-IAC-traceability-mapped-media-vetted-real-device-media-learning-check-and-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
