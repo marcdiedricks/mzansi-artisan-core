@@ -1,0 +1,80 @@
+{
+  "lesson_id": "ZA-BOILERMAKER-KM04-L01",
+  "module_id": "KM-04",
+  "topic_id": "KM-04-KT01",
+  "title": "Basic Templates",
+  "objective": "Learn what fabrication templates are, why different template types and materials are used, and how approved job information gives a template its meaning.",
+  "source_mode": "brownfield-migration",
+  "legacy_source": "mzansi-boilermaker/km04r01.html",
+  "safety_level": "T1",
+  "safety_boundary": "Learning only. This lesson is for recognising and understanding templates. It does not authorise practical marking-out, cutting, forming, machine operation or hazardous fabrication activity. Practical work requires approved training, workplace controls and competent human supervision.",
+  "sections": [
+    {
+      "heading": "What is a fabrication template?",
+      "content": "A fabrication template is a controlled reference used to represent a required shape, outline, position or relationship for a component. Its meaning comes from the approved drawing, specification or other controlled job information.",
+      "key_idea": "A template supports accurate interpretation. It does not replace the current approved drawing or specification."
+    },
+    {
+      "heading": "Why are there different kinds of templates?",
+      "content": "Different jobs can require different template forms. Some may represent a full shape, part of a shape, a repeated feature, a profile or a reference used to check relationships between features. The correct template type depends on the controlled job requirement, not guesswork or convenience."
+    },
+    {
+      "heading": "Template materials",
+      "content": "Templates may be made from different suitable materials depending on the workplace requirement, durability needed, accuracy expected and how the reference will be controlled or reused. The correct material and identification method must come from approved workplace or training information."
+    },
+    {
+      "heading": "What information gives a template meaning?",
+      "content": "A template should be linked to the correct job, drawing or specification. Controlled information can include identity, orientation, dimensions, reference points, revision status and the component or feature represented. If the identity, revision or purpose is unclear, stop and clarify through the responsible process."
+    },
+    {
+      "heading": "Basic marking-off principles at knowledge level",
+      "content": "Marking-off is the controlled transfer or representation of job information so that positions, outlines or reference features can be understood before fabrication. This lesson explains the principle only. Practical marking-out belongs in supervised practical training."
+    },
+    {
+      "heading": "How templates fit into fabrication planning",
+      "content": "Templates help connect drawing information to a planned component or feature. Before a template is relied on, check that it belongs to the correct job, matches the current controlled information and is suitable for the intended purpose."
+    }
+  ],
+  "learning_check": {
+    "purpose": "learning-progress-only",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What gives a fabrication template its correct meaning?",
+        "options": ["The current approved job information", "Memory or appearance alone"],
+        "correct_index": 0
+      },
+      {
+        "id": "q2",
+        "question": "Why can different kinds of templates be used?",
+        "options": ["Different jobs and features can require different controlled references", "The choice is random"],
+        "correct_index": 0
+      },
+      {
+        "id": "q3",
+        "question": "What should you do if a template identity or revision is unclear?",
+        "options": ["Guess and continue", "Stop and clarify through the responsible process"],
+        "correct_index": 1
+      },
+      {
+        "id": "q4",
+        "question": "Does completing this lesson authorise practical marking-out or fabrication work?",
+        "options": ["Yes", "No"],
+        "correct_index": 1
+      }
+    ],
+    "completion_score": 4,
+    "competence_claim": false
+  },
+  "media": [
+    {
+      "media_id": "LEGACY-KM04-L01-VIDEO-01",
+      "type": "video",
+      "role": "supplementary",
+      "language": "en",
+      "status": "legacy-link-requires-media-registry-audit"
+    }
+  ],
+  "source_ids": ["LEGACY-KM04-KT01-CURRICULUM"],
+  "verification_status": "legacy-ingested-reverification-required"
+}
