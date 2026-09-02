@@ -13,15 +13,8 @@
     "module_code": "651302-000-01-KM-05",
     "knowledge_topic": "KM-05-KT04 — Lifting of loads",
     "topic_weight": "15%",
-    "verified_topic_elements": [
-      "KT0401 — Lifting concepts and methods — 100%"
-    ],
-    "internal_assessment_criteria": [
-      "IAC0401 — Identify and describe overhead-crane hand signals — 40%",
-      "IAC0402 — Identify and describe safety precautions, processes and equipment — 25%",
-      "IAC0403 — Interpret data from load charts — 15%",
-      "IAC0404 — Calculate and determine maximum working loads — 20%"
-    ],
+    "verified_topic_elements": ["KT0401 — Lifting concepts and methods — 100%"],
+    "internal_assessment_criteria": ["IAC0401 — Identify and describe overhead-crane hand signals — 40%","IAC0402 — Identify and describe safety precautions, processes and equipment — 25%","IAC0403 — Interpret data from load charts — 15%","IAC0404 — Calculate and determine maximum working loads — 20%"],
     "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
     "source_location": "KM-05-KT04, curriculum pages 45–46",
     "verification_date": "2026-09-02"
@@ -50,9 +43,15 @@
   },
   "media": {
     "required": true,
-    "status": "pending-vetting",
-    "focus_required": "Safe theory resource about lifting safety principles, controlled communication or load-chart awareness without operational lifting, rigging, crane-use or load-calculation instruction."
+    "status": "vetted-theory-resource-selected-access-test-required",
+    "title": "Planning and organising lifting operations",
+    "provider": "UK Health and Safety Executive (HSE)",
+    "url": "https://www.hse.gov.uk/work-equipment-machinery/planning-organising-lifting-operations.htm",
+    "language": "English",
+    "focus": "Safety-focused theory reference explaining why lifting operations require competent planning, risk control, appropriate supervision and controlled work arrangements.",
+    "safety_scope": "Use only for safety awareness and theory. This Companion does not use the resource to teach crane operation, rigging, slinging, live load calculation or practical lifting procedures.",
+    "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT04-elements-and-IAC-traceability-mapped-content-media-and-real-device-tests-pending",
+  "verification_status": "authoritative-KT04-traceability-mapped-HSE-theory-resource-selected-android-access-learning-check-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
