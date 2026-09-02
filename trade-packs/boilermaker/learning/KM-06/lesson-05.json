@@ -6,7 +6,7 @@
   "module_title": "Cutting and Welding",
   "topic": "KM-06-KT05",
   "title": "Down-hand Welding — Theory and Safety Awareness",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Recognise at knowledge level what the down-hand welding position means, how the named welding-process families relate to this position, and why approved procedures, quality requirements and safety controls govern practical welding work.",
   "curriculum_traceability": {
@@ -40,7 +40,7 @@
   },
   "media": {
     "required": true,
-    "status": "sa-first-safe-learner-resource-selected-device-access-test-required",
+    "status": "vetted-sa-first-safe-learner-resource-device-access-passed",
     "resource_priority": "South Africa first; if no suitable SA learner resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe",
     "title": "Welding — WorldSkills South Africa",
     "provider": "WorldSkills South Africa / DHET",
@@ -50,8 +50,14 @@
     "focus": "South African learner-facing overview of welding as a skill, including different welding contexts and the importance of safe and accurate work. Used as supporting learner context while the lesson itself explains down-hand position theory.",
     "safety_scope": "High-level learner awareness only. It is not used to teach welding setup, settings or practical technique.",
     "verified_date": "2026-09-02",
-    "vetting_note": "The previous DHET Subject Guidelines PDF was removed because it is curriculum/teaching guidance rather than an appropriate learner lesson resource. This WorldSkills South Africa page is learner-facing and safe."
+    "vetting_note": "WorldSkills South Africa learner-facing resource verified in Marc's real-device test."
   },
-  "verification_status": "authoritative-KT05-mapped-SA-first-safe-learner-resource-selected-render-resource-learning-check-offline-tests-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-android-render-passed-media-access-passed-learning-check-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-57",
+    "date": "2026-09-02",
+    "basis": ["Lesson render passed","Learner resource passed","Learning Check passed","Offline operation passed"],
+    "change_rule": "Change only for authoritative curriculum correction, verified defect, material safety issue, or controlled localisation/resource improvement."
+  }
 }
