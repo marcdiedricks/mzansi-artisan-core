@@ -6,7 +6,7 @@
   "module_title": "Cutting and Welding",
   "topic": "KM-06-KT03",
   "title": "Distortions",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Recognise at knowledge level why distortion can occur during fabrication and welding, how it can affect a component, and why prevention or correction decisions must follow approved technical requirements.",
   "curriculum_traceability": {
@@ -47,7 +47,7 @@
   },
   "media": {
     "required": true,
-    "status": "sa-first-free-tvet-reference-selected-access-test-required",
+    "status": "vetted-sa-first-free-tvet-resource-device-access-passed",
     "resource_priority": "South Africa first — free/public — TVET/artisan level — plain vocational context",
     "title": "Engineering Fabrication / Boilermaking — NC(V) Subject Guidelines",
     "provider": "Department of Higher Education and Training (DHET)",
@@ -57,8 +57,14 @@
     "focus": "Free official South African TVET-level Engineering Fabrication / Boilermaking reference. The DHET vocational framework includes welding quality and distortion in the fabrication learning context; the Companion provides the plain-language current-QCTO lesson.",
     "safety_scope": "Reference context only. Do not use linked material as instructions for hazardous practical work. Practical welding or distortion-correction activity belongs in authorised training under competent supervision.",
     "verified_date": "2026-09-02",
-    "vetting_note": "Selected under the locked SA-first, free/public, TVET/artisan-level resource rule. DHET is the official South African TVET source. Real-device access requires Android test for this lesson gate."
+    "vetting_note": "Selected under the locked SA-first, free/public, TVET/artisan-level resource rule. DHET is the official South African TVET source. Android resource access passed during MAF-02-52 verification sequence."
   },
-  "verification_status": "authoritative-KT03-elements-and-IACs-mapped-SA-first-free-DHET-TVET-reference-selected-android-render-resource-access-learning-check-offline-tests-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-android-render-passed-media-access-passed-learning-check-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-53",
+    "date": "2026-09-02",
+    "basis": ["MAF-02-50/51 core integration", "MAF-02-52 Android render and learning check 4/4", "MAF-02-53 offline test passed"],
+    "change_rule": "Change only for authoritative curriculum correction, verified defect, material safety issue, or controlled localisation/resource improvement."
+  }
 }
