@@ -6,7 +6,7 @@
   "module_title": "Assembling and Joining",
   "topic": "KM-05-KT01",
   "title": "Joining Simple Components",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Explain the terminology, controlled information, safety principles, assembling and fastening concepts, lay-out and fit concepts, and quality checks associated with simple component joining, without providing unsupervised practical joining instructions.",
   "curriculum_traceability": {
@@ -65,6 +65,11 @@
     "safety_scope": "Theory support only. The resource is selected to reinforce interpretation of controlled drawing information and does not authorise hazardous practical joining work.",
     "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT01-elements-and-IAC-traceability-complete-real-device-retest-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-media-vetted-learning-check-passed-android-render-passed-cache-update-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-19",
+    "date": "2026-09-02",
+    "basis": ["MAF-02-16 curriculum completeness PASS", "MAF-02-17 Trade Pack cache update PASS", "MAF-02-18 updated lesson offline PASS"]
+  }
 }
