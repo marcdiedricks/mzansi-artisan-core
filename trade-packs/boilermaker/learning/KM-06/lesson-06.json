@@ -1,57 +1,9 @@
 {
-  "schema": "MAF-LESSON-0.1",
-  "lesson_id": "ZA-BOILERMAKER-KM06-L06",
-  "trade_pack_id": "ZA-BOILERMAKER-001",
-  "module": "KM-06",
-  "module_title": "Cutting and Welding",
-  "topic": "KM-06-KT06",
-  "title": "Arc Welding in All Positions — Theory and Safety Awareness",
-  "status": "factory-built-verification-required",
-  "source_mode": "authoritative-gap-build",
-  "objective": "Recognise that arc welding work is classified by welding position and understand why position, approved procedures, quality requirements and safety controls matter, without performing welding work.",
-  "curriculum_traceability": {
-    "module_code": "651302-000-01-KM-06",
-    "knowledge_topic": "KM-06-KT06 — Arc welding in all positions",
-    "topic_weight": "10%",
-    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
-    "verification_date": "2026-09-02"
-  },
-  "safety_level": "T4",
-  "safety_boundary": "Knowledge and safety-awareness only. This lesson does not teach arc-welding setup, machine settings, electrode selection, ignition, electrode movement, welding sequence, body positioning, joint preparation or how to perform a weld in any position. Practical welding belongs in authorised occupational training under competent supervision.",
-  "sections": [
-    {"heading":"1. Why welding position matters","body":"Welding positions describe how a joint is oriented when welding work is performed. Recognising the required position is part of understanding the job information and the approved welding procedure."},
-    {"heading":"2. Position families","body":"Welding work may be classified using position families such as flat, horizontal, vertical and overhead. Different standards may use different position codes, so the applicable drawing, specification and approved procedure must be consulted."},
-    {"heading":"3. Arc welding across positions","body":"The occupational curriculum requires knowledge that arc welding may be encountered across different welding positions. This lesson develops recognition of that concept only and does not teach the practical technique for any position."},
-    {"heading":"4. Standards and qualification","body":"Welding positions form part of welder training, qualification and fabrication requirements. A learner should understand that practical competence is demonstrated and assessed under authorised training and applicable standards, not established by completing a theory lesson."},
-    {"heading":"5. Quality requirements remain controlled","body":"Weld quality is judged against the applicable specification, code and inspection requirements. The welding position does not remove the need for controlled workmanship, inspection and authorised acceptance criteria."},
-    {"heading":"6. Safety awareness","body":"Arc-welding environments can involve serious hazards including electrical energy, intense light and heat, fumes, hot material and fire risk. Practical training therefore requires workplace controls, suitable protective measures and competent supervision."},
-    {"heading":"7. Changing position changes the task context","body":"A change in joint orientation can change how the welding task is classified and how an approved procedure applies. Learners should recognise the position specified for the work rather than assuming that all welding situations are equivalent."},
-    {"heading":"8. Stop and refer","body":"If the welding position, process, drawing, specification, standard or approved procedure is unclear, stop and refer the matter to a competent trainer or supervisor before practical work is attempted."}
-  ],
-  "learning_check": {
-    "competence_claim": false,
-    "completion_score": 4,
-    "questions": [
-      {"id":"Q1","question":"What do welding positions describe?","options":["How a joint is oriented for welding work","The colour of the metal","The price of the equipment"],"answer":"How a joint is oriented for welding work"},
-      {"id":"Q2","question":"Which are recognised welding-position families?","options":["Flat, horizontal, vertical and overhead","Only flat","Only vertical"],"answer":"Flat, horizontal, vertical and overhead"},
-      {"id":"Q3","question":"What should control the required position and welding requirements?","options":["Applicable job information, standards and approved procedures","Guesswork","Whichever position looks easiest"],"answer":"Applicable job information, standards and approved procedures"},
-      {"id":"Q4","question":"Does this lesson establish practical competence to weld in all positions?","options":["Yes","No"],"answer":"No"}
-    ]
-  },
-  "media": {
-    "required": true,
-    "status": "sa-first-safe-learner-resource-selected-device-access-test-required",
-    "resource_priority": "South Africa first; if no suitable SA learner resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe",
-    "title": "Welding — WorldSkills South Africa",
-    "provider": "WorldSkills South Africa / DHET",
-    "country": "South Africa",
-    "url": "https://worldskillsza.dhet.gov.za/site/skills/Welding.aspx",
-    "language": "English",
-    "focus": "South African learner-facing welding overview emphasising the range of welding work and the importance of safe and accurate practice. It provides safe career and trade context while this lesson explains welding-position theory.",
-    "safety_scope": "High-level learner awareness only. It is not used to teach arc-welding setup, settings, electrode use or practical positional welding technique.",
-    "verified_date": "2026-09-02",
-    "vetting_note": "Selected under the locked Golden Rules. The WorldSkills South Africa resource was already positively verified by Marc as a learner-facing resource in KM-06 Lesson 5."
-  },
-  "verification_status": "authoritative-KT06-mapped-SA-first-safe-learner-resource-selected-render-resource-learning-check-offline-tests-pending",
-  "freeze_status": "NOT_FROZEN"
+  "schema":"MAF-LESSON-0.1","lesson_id":"ZA-BOILERMAKER-KM06-L06","trade_pack_id":"ZA-BOILERMAKER-001","module":"KM-06","module_title":"Cutting and Welding","topic":"KM-06-KT06","title":"Arc Welding in All Positions — Theory and Safety Awareness","status":"verified-pilot-frozen","source_mode":"authoritative-gap-build","objective":"Recognise that arc welding work is classified by welding position and understand why position, approved procedures, quality requirements and safety controls matter, without performing welding work.",
+  "curriculum_traceability":{"module_code":"651302-000-01-KM-06","knowledge_topic":"KM-06-KT06 — Arc welding in all positions","topic_weight":"10%","primary_source":"QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf","verification_date":"2026-09-02"},
+  "safety_level":"T4","safety_boundary":"Knowledge and safety-awareness only. This lesson does not teach arc-welding setup, machine settings, electrode selection, ignition, electrode movement, welding sequence, body positioning, joint preparation or how to perform a weld in any position. Practical welding belongs in authorised occupational training under competent supervision.",
+  "sections":[{"heading":"1. Why welding position matters","body":"Welding positions describe how a joint is oriented when welding work is performed. Recognising the required position is part of understanding the job information and the approved welding procedure."},{"heading":"2. Position families","body":"Welding work may be classified using position families such as flat, horizontal, vertical and overhead. Different standards may use different position codes, so the applicable drawing, specification and approved procedure must be consulted."},{"heading":"3. Arc welding across positions","body":"The occupational curriculum requires knowledge that arc welding may be encountered across different welding positions. This lesson develops recognition of that concept only and does not teach the practical technique for any position."},{"heading":"4. Standards and qualification","body":"Welding positions form part of welder training, qualification and fabrication requirements. A learner should understand that practical competence is demonstrated and assessed under authorised training and applicable standards, not established by completing a theory lesson."},{"heading":"5. Quality requirements remain controlled","body":"Weld quality is judged against the applicable specification, code and inspection requirements. The welding position does not remove the need for controlled workmanship, inspection and authorised acceptance criteria."},{"heading":"6. Safety awareness","body":"Arc-welding environments can involve serious hazards including electrical energy, intense light and heat, fumes, hot material and fire risk. Practical training therefore requires workplace controls, suitable protective measures and competent supervision."},{"heading":"7. Changing position changes the task context","body":"A change in joint orientation can change how the welding task is classified and how an approved procedure applies. Learners should recognise the position specified for the work rather than assuming that all welding situations are equivalent."},{"heading":"8. Stop and refer","body":"If the welding position, process, drawing, specification, standard or approved procedure is unclear, stop and refer the matter to a competent trainer or supervisor before practical work is attempted."}],
+  "learning_check":{"competence_claim":false,"completion_score":4,"questions":[{"id":"Q1","question":"What do welding positions describe?","options":["How a joint is oriented for welding work","The colour of the metal","The price of the equipment"],"answer":"How a joint is oriented for welding work"},{"id":"Q2","question":"Which are recognised welding-position families?","options":["Flat, horizontal, vertical and overhead","Only flat","Only vertical"],"answer":"Flat, horizontal, vertical and overhead"},{"id":"Q3","question":"What should control the required position and welding requirements?","options":["Applicable job information, standards and approved procedures","Guesswork","Whichever position looks easiest"],"answer":"Applicable job information, standards and approved procedures"},{"id":"Q4","question":"Does this lesson establish practical competence to weld in all positions?","options":["Yes","No"],"answer":"No"}]},
+  "media":{"required":true,"status":"vetted-sa-first-safe-learner-resource-device-access-passed","resource_priority":"South Africa first; if no suitable SA learner resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe","title":"Welding — WorldSkills South Africa","provider":"WorldSkills South Africa / DHET","country":"South Africa","url":"https://worldskillsza.dhet.gov.za/site/skills/Welding.aspx","language":"English","focus":"South African learner-facing welding overview emphasising the range of welding work and the importance of safe and accurate practice. It provides safe career and trade context while this lesson explains welding-position theory.","safety_scope":"High-level learner awareness only. It is not used to teach arc-welding setup, settings, electrode use or practical positional welding technique.","verified_date":"2026-09-02","vetting_note":"WorldSkills South Africa learner-facing resource and lesson operation verified in Marc's real-device online and offline tests."},
+  "verification_status":"authoritative-traceability-complete-android-render-passed-media-access-passed-learning-check-passed-offline-passed","freeze_status":"FROZEN","freeze_record":{"version":"MAF-02-59","date":"2026-09-02","basis":["Lesson operation passed","Online operation passed","Learner resource passed","Learning Check passed","Offline operation passed"],"change_rule":"Change only for authoritative curriculum correction, verified defect, material safety issue, or controlled localisation/resource improvement."}
 }
