@@ -1,0 +1,88 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM05-L01",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-05",
+  "module_title": "Assembling and Joining",
+  "topic": "KM-05-KT01",
+  "title": "Joining Simple Components",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Explain the terminology, controlled information, safety principles and quality checks used when simple components are joined, without providing unsupervised practical joining instructions.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-05",
+    "knowledge_topic": "KM-05-KT01 — Joining of simple components",
+    "verified_topic_elements": [
+      "KT0101 — Terminology, concepts and principles of joining",
+      "KT0102 — Drawings, codes and specifications used in joining",
+      "KT0103 — Hazards, risks and safety pertaining to joining"
+    ],
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T2",
+  "safety_boundary": "Knowledge learning only. This lesson does not authorise fabrication, welding, powered-tool use, lifting, hot work or any other hazardous practical activity. Practical joining must occur only in an approved training or workplace environment under applicable controls and competent human supervision.",
+  "sections": [
+    {
+      "heading": "1. What does joining mean?",
+      "body": "In boilermaking, joining means bringing prepared components together so that they form the required assembly. The learner must understand the names of components, joints and joining methods, and must recognise that the correct method depends on the drawing, specification, material and required finished result."
+    },
+    {
+      "heading": "2. Start with controlled information",
+      "body": "A boilermaker should understand the job from the approved drawing, sketch, specification or other controlled information before practical work begins. Important information can include component identity, dimensions, orientation, joint location, material information, tolerances and required quality conditions. A learner must not guess when controlled information is missing or unclear."
+    },
+    {
+      "heading": "3. Joining terminology and principles",
+      "body": "Useful knowledge includes recognising the components to be joined, the intended joint, how parts relate to one another, and the difference between temporary positioning and the final approved joint. The purpose of the knowledge lesson is to understand why correct identification, alignment and conformity to the controlled information matter to the finished assembly."
+    },
+    {
+      "heading": "4. Safety comes before practical joining",
+      "body": "Joining work may involve hazards associated with materials, sharp edges, heat, electricity, tools, machinery, fumes, movement of components and the surrounding work area. Before practical activity, hazards and applicable workplace controls must be identified by the authorised people responsible for the work. The learner's rule is simple: if the task, condition or instruction is unclear or unsafe, stop and ask the competent supervisor or trainer."
+    },
+    {
+      "heading": "5. Quality means checking against the requirement",
+      "body": "A joined component is not judged simply by whether the pieces appear connected. Quality is checked against the controlled requirement. At the knowledge level, learners should understand the importance of correct component identity, orientation, dimensions, alignment, joint location and visible conformity with the approved information."
+    },
+    {
+      "heading": "6. The learning boundary",
+      "body": "Knowing the joining principles is different from being authorised or competent to perform a practical joining operation. This Companion helps the learner understand and prepare. Practical competence must be developed and assessed through the required supervised occupational process."
+    }
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {
+        "id": "Q1",
+        "question": "What should guide the required arrangement and joining of components?",
+        "options": ["Guesswork", "Approved controlled information", "The quickest available method"],
+        "answer": "Approved controlled information"
+      },
+      {
+        "id": "Q2",
+        "question": "If important job information is unclear, what is the correct learner response?",
+        "options": ["Continue and estimate", "Stop and ask the competent trainer or supervisor", "Ignore the unclear information"],
+        "answer": "Stop and ask the competent trainer or supervisor"
+      },
+      {
+        "id": "Q3",
+        "question": "Which statement best describes quality in a joined component?",
+        "options": ["The pieces only need to look connected", "The result should conform to the approved requirement", "Appearance is the only requirement"],
+        "answer": "The result should conform to the approved requirement"
+      },
+      {
+        "id": "Q4",
+        "question": "Does completing this knowledge lesson authorise a learner to perform hazardous joining work unsupervised?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      }
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "media-selection-pending",
+    "note": "A future vetted visual resource may demonstrate concepts only. It must not turn this lesson into unsupervised hazardous practical instruction."
+  },
+  "verification_status": "curriculum-topic-structure-verified-content-acceptance-pending",
+  "freeze_status": "NOT_FROZEN"
+}
