@@ -1,0 +1,59 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM05-L03",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-05",
+  "module_title": "Assembling and Joining",
+  "topic": "KM-05-KT03",
+  "title": "Joining Complex Assemblies",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Explain, at knowledge level, the concepts and principles of complex assemblies, how controlled drawings and specifications communicate requirements, and how assembling, fastening, lay-out and fit concepts relate to approved work without providing unsupervised fabrication or joining procedures.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-05",
+    "knowledge_topic": "KM-05-KT03 — Joining of complex assemblies",
+    "topic_weight": "30%",
+    "verified_topic_elements": [
+      "KT0301 — Concepts and principles of joining complex assemblies — 30%",
+      "KT0302 — Assembling and fastening methods for complex assemblies — 40%",
+      "KT0303 — Lay-out and fit complex assemblies — 30%"
+    ],
+    "internal_assessment_criteria": [
+      "IAC0301 — Describe the concepts and principles of joining complex assemblies — 30%",
+      "IAC0302 — Interpret information from drawings and specifications of complex assemblies and apply relevant knowledge-level calculations — 40%",
+      "IAC0303 — Identify, discuss and illustrate assembling and fastening methods for complex assemblies — 30%"
+    ],
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "source_location": "KM-05-KT03, curriculum page 45",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T2",
+  "safety_boundary": "Knowledge learning only. This lesson does not authorise fabrication, welding, cutting, powered-tool use, structural modification, lifting or other hazardous practical assembly work. Physical assembly and joining belong in approved occupational training or workplace processes under applicable controls and competent human supervision.",
+  "sections": [
+    {"heading":"1. What makes an assembly complex?","body":"A complex assembly combines multiple components, relationships and controlled requirements that must be understood together. At knowledge level, the learner focuses on recognising how components relate to the approved assembly information rather than attempting physical fabrication."},
+    {"heading":"2. Concepts and principles","body":"Complex assemblies depend on controlled requirements such as component identity, orientation, relationships, dimensions, references and specified joining requirements. The learner should understand these concepts and explain why assumptions must not replace approved information."},
+    {"heading":"3. Drawings and specifications","body":"Drawings and specifications communicate the approved assembly requirements. Learners should practise interpreting component relationships, dimensions, references and other controlled information and use only calculations appropriate to the approved knowledge-learning context. Unclear or missing information must be referred to the competent trainer or supervisor."},
+    {"heading":"4. Assembling and fastening concepts","body":"The curriculum requires learners to identify, discuss and illustrate assembling and fastening methods for complex assemblies. In this Companion this remains conceptual: learners recognise method categories, purpose and relationships to controlled requirements. Selection, setup and physical use of equipment remain supervised practical competencies."},
+    {"heading":"5. Lay-out concepts","body":"Lay-out establishes how required information is represented and related before components are assembled. At knowledge level, learners should understand the importance of controlled dimensions, references and component relationships. This lesson does not provide operational marking-out or tool-use procedures."},
+    {"heading":"6. Fit concepts","body":"Fit concerns whether components and their relationships conform to the approved assembly requirement. Learners should understand that conformity is checked against controlled information rather than guesswork. Physical adjustment or modification remains part of supervised practical training."},
+    {"heading":"7. Safe illustration and explanation","body":"Learners may use simple diagrams or freehand sketches to communicate assembly concepts at knowledge level. Such representations explain understanding only; they are not fabrication instructions, design approvals or authorisation to perform practical work."},
+    {"heading":"8. The learning boundary","body":"Understanding complex-assembly concepts, drawings, specifications, assembling, fastening, lay-out and fit does not establish practical occupational competence. The Companion prepares learners for supervised training and formal assessment processes; it does not certify or authorise hazardous practical assembly work."}
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {"id":"Q1","question":"What should control the requirements of a complex assembly?","options":["Approved drawings and specifications","Guesswork","Whichever arrangement looks easiest"],"answer":"Approved drawings and specifications"},
+      {"id":"Q2","question":"What is the purpose of interpreting drawings in this lesson?","options":["To understand approved component relationships and requirements","To authorise unsupervised fabrication","To replace controlled specifications"],"answer":"To understand approved component relationships and requirements"},
+      {"id":"Q3","question":"How are assembling and fastening methods treated in this Companion lesson?","options":["As knowledge-level concepts for recognition, discussion and illustration","As unsupervised practical instructions","As permission to use hazardous equipment"],"answer":"As knowledge-level concepts for recognition, discussion and illustration"},
+      {"id":"Q4","question":"Does completing this lesson certify practical competence in complex assembly work?","options":["Yes","No"],"answer":"No"}
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "pending-vetting",
+    "focus_required": "Safe theory resource supporting assembly drawing interpretation, component relationships or engineering-drawing representation without hazardous fabrication instruction."
+  },
+  "verification_status": "authoritative-KT03-elements-and-IAC-traceability-mapped-content-acceptance-media-and-real-device-tests-pending",
+  "freeze_status": "NOT_FROZEN"
+}
