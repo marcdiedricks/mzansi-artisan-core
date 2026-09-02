@@ -1,0 +1,34 @@
+{
+  "schema":"MAF-LESSON-0.1",
+  "lesson_id":"ZA-BOILERMAKER-KM06-L07",
+  "trade_pack_id":"ZA-BOILERMAKER-001",
+  "module":"KM-06",
+  "module_title":"Cutting and Welding",
+  "topic":"KM-06-KT07",
+  "title":"Oxy-fuel Cutting — Theory and Safety Awareness",
+  "status":"factory-built-verification-required",
+  "source_mode":"authoritative-gap-build",
+  "objective":"Understand at knowledge level what oxy-fuel cutting is, where it fits within boilermaker fabrication, its broad material limitations, and why practical cutting requires authorised training and safety controls.",
+  "curriculum_traceability":{"module_code":"651302-000-01-KM-06","knowledge_topic":"KM-06-KT07 — Oxy fuel cutting","topic_weight":"8%","primary_source":"QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf","verification_date":"2026-09-02"},
+  "safety_level":"T4",
+  "safety_boundary":"Theory and safety-awareness only. This lesson does not teach gas-cylinder connection, regulator or pressure settings, torch setup, ignition, flame adjustment, nozzle selection, cutting speed, torch movement, piercing, shutdown or how to perform oxy-fuel cutting. Practical cutting belongs in authorised occupational training under competent supervision.",
+  "sections":[
+    {"heading":"1. What oxy-fuel cutting is","body":"Oxy-fuel cutting is a thermal cutting process used in metal fabrication. At knowledge level, learners should recognise it as one of the cutting-process families encountered in boilermaker work."},
+    {"heading":"2. The underlying idea","body":"The process combines heating with an oxygen-driven reaction that enables suitable metal to be separated. Understanding this broad principle helps distinguish oxy-fuel cutting from other cutting families without teaching equipment operation."},
+    {"heading":"3. Material suitability matters","body":"Oxy-fuel cutting is particularly associated with suitable steels. Different metals respond differently to thermal cutting processes, so material identification and the approved fabrication specification matter before a cutting process is selected."},
+    {"heading":"4. Manual and mechanised contexts","body":"Oxy-fuel cutting can appear in manual and mechanised fabrication environments. The occupational learner should recognise these contexts while understanding that each requires appropriate equipment, controls, training and supervision."},
+    {"heading":"5. Quality requirements","body":"A cut component must ultimately meet the applicable drawing, dimensions, specification and quality requirements. Process choice does not replace inspection or authorised acceptance criteria."},
+    {"heading":"6. Safety awareness","body":"Thermal cutting environments can involve serious hazards including heat, fire, hot material, fumes and pressurised gases. Practical work therefore requires formal training, workplace controls, suitable protective measures and competent supervision."},
+    {"heading":"7. Process choice is controlled","body":"The appropriate cutting process depends on the material, drawing, specification, workplace procedure and available authorised equipment. Learners should understand the decision factors rather than independently selecting or operating cutting equipment."},
+    {"heading":"8. Stop and refer","body":"If the material, required cutting process, drawing, specification or approved procedure is unclear, stop and refer the matter to a competent trainer or supervisor before practical work is attempted."}
+  ],
+  "learning_check":{"competence_claim":false,"completion_score":4,"questions":[
+    {"id":"Q1","question":"What type of process is oxy-fuel cutting?","options":["A thermal cutting process","A measuring process","A painting process"],"answer":"A thermal cutting process"},
+    {"id":"Q2","question":"Why does material identification matter?","options":["Different materials respond differently to cutting processes","Every metal behaves identically","Only the colour matters"],"answer":"Different materials respond differently to cutting processes"},
+    {"id":"Q3","question":"What should govern cutting-process requirements?","options":["Approved drawings, specifications and workplace procedures","Guesswork","Whichever process is nearest"],"answer":"Approved drawings, specifications and workplace procedures"},
+    {"id":"Q4","question":"Does this lesson authorise practical oxy-fuel cutting?","options":["Yes","No"],"answer":"No"}
+  ]},
+  "media":{"required":true,"status":"sa-first-safe-learner-context-selected-device-access-test-required","resource_priority":"South Africa first; if no suitable SA learner resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; accessible; safe","title":"merSETA Learner Career Guide","provider":"merSETA","country":"South Africa","url":"https://www.merseta.org.za/wp-content/uploads/2026/02/merSETA-Learner-Career-Guide.pdf","language":"English","focus":"South African learner-facing artisan guide providing fabrication and manufacturing context, including modern cutting technology, while this Companion lesson provides the controlled theory of oxy-fuel cutting.","safety_scope":"Career and artisan-learning context only. It does not serve as practical oxy-fuel cutting instruction.","verified_date":"2026-09-02","vetting_note":"SA-first search completed. Practical oxy-fuel instructional pages were deliberately excluded from learner media because they contain operational cutting details. merSETA's learner guide is retained as safe South African artisan context."},
+  "verification_status":"authoritative-KT07-mapped-SA-first-safe-learner-context-selected-render-resource-learning-check-offline-tests-pending",
+  "freeze_status":"NOT_FROZEN"
+}
