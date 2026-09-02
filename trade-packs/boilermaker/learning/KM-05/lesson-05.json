@@ -47,9 +47,15 @@
   },
   "media": {
     "required": true,
-    "status": "pending-vetting",
-    "focus_required": "Publicly accessible safety-awareness theory resource about controlled lifting planning and risk management, without practical rigging, slinging, crane-operation or live load-calculation instruction."
+    "status": "vetted-theory-resource-selected-access-test-required",
+    "title": "Planning and organising lifting operations",
+    "provider": "UK Health and Safety Executive (HSE)",
+    "url": "https://www.hse.gov.uk/work-equipment-machinery/planning-organising-lifting-operations.htm",
+    "language": "English",
+    "focus": "Safety-awareness reference supporting the principles that lifting operations require competent planning, appropriate supervision and controlled safe work arrangements.",
+    "safety_scope": "Safety-awareness and theory only. Do not use this Companion resource as instruction for rigging, slinging, crane or hoist operation, equipment selection for live work, signalling, or working-load calculations.",
+    "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT05-elements-and-IAC-traceability-mapped-content-media-and-real-device-tests-pending",
+  "verification_status": "authoritative-KT05-traceability-mapped-HSE-theory-resource-selected-android-access-learning-check-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
