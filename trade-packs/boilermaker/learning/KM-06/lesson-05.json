@@ -14,7 +14,6 @@
     "knowledge_topic": "KM-06-KT05 — Gas, Arc, TIG, MIG welding in a down hand position",
     "topic_weight": "10%",
     "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
-    "supporting_source": "DHET NC(V) Welding Level 2 Subject Guidelines",
     "verification_date": "2026-09-02"
   },
   "safety_level": "T4",
@@ -41,18 +40,18 @@
   },
   "media": {
     "required": true,
-    "status": "sa-first-vetted-public-vocational-reference-selected-device-access-test-required",
-    "resource_priority": "South Africa first; if no suitable SA resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe",
-    "title": "Welding Level 2 — Subject Guidelines",
-    "provider": "Department of Higher Education and Training (DHET)",
+    "status": "sa-first-safe-learner-resource-selected-device-access-test-required",
+    "resource_priority": "South Africa first; if no suitable SA learner resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe",
+    "title": "Welding — WorldSkills South Africa",
+    "provider": "WorldSkills South Africa / DHET",
     "country": "South Africa",
-    "url": "https://www.dhet.gov.za/National%20Certificates%20NQF%20Level%202/NC%28Vocational%29%20Subject%20Guidelines%20Level%202/Engineering%20and%20Related%20Design/Welding.pdf",
+    "url": "https://worldskillsza.dhet.gov.za/site/skills/Welding.aspx",
     "language": "English",
-    "focus": "Official South African vocational subject guideline confirming down-hand welding as part of the learning scope for shielded metal arc, oxy-acetylene gas and MIG welding. The Companion uses it only as a curriculum-support reference for recognising the vocational context and position terminology.",
-    "safety_scope": "Reference only. The Companion does not reproduce or teach practical welding procedures, settings, equipment operation or technique from the source.",
+    "focus": "South African learner-facing overview of welding as a skill, including different welding contexts and the importance of safe and accurate work. Used as supporting learner context while the lesson itself explains down-hand position theory.",
+    "safety_scope": "High-level learner awareness only. It is not used to teach welding setup, settings or practical technique.",
     "verified_date": "2026-09-02",
-    "vetting_note": "Selected under the locked Golden Rules: South Africa searched first; official DHET vocational teaching source; free/public; directly relevant to down-hand welding. Any operational material within the source is outside the Companion lesson boundary and is not reproduced as instruction. Real-device access still requires verification."
+    "vetting_note": "The previous DHET Subject Guidelines PDF was removed because it is curriculum/teaching guidance rather than an appropriate learner lesson resource. This WorldSkills South Africa page is learner-facing and safe."
   },
-  "verification_status": "authoritative-KT05-mapped-SA-first-DHET-vocational-reference-selected-render-resource-learning-check-offline-tests-pending",
+  "verification_status": "authoritative-KT05-mapped-SA-first-safe-learner-resource-selected-render-resource-learning-check-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
