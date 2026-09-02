@@ -6,7 +6,7 @@
   "module_title": "Cutting and Welding",
   "topic": "KM-06-KT04",
   "title": "Welding Processes — Theory and Safety Awareness",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Recognise at knowledge level the main welding-process families named in the occupational curriculum, their terminology, equipment categories, standards, hazards and common quality considerations without performing welding work.",
   "curriculum_traceability": {
@@ -49,7 +49,7 @@
   },
   "media": {
     "required": true,
-    "status": "sa-first-vetted-public-theory-resource-selected-device-access-test-required",
+    "status": "vetted-sa-first-public-theory-resource-device-access-passed",
     "resource_priority": "South Africa first; if no suitable SA resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe",
     "title": "A Detailed Outline of Common Welding Processes",
     "provider": "Babcock International — South Africa",
@@ -59,8 +59,19 @@
     "focus": "Public South African explanatory article giving a beginner-level overview of common welding-process families, including arc and MIG welding, their general characteristics and applications. Used only to support conceptual recognition of welding processes.",
     "safety_scope": "Theory reference only. Do not use the resource as instructions for welding setup, machine settings, consumable selection, ignition or practical welding. Practical work belongs in authorised occupational training under competent supervision.",
     "verified_date": "2026-09-02",
-    "vetting_note": "SA-first search completed. Rejected assessment material, university-level material, commercial course pages and operational training resources. This public South African explanatory article is suitable for theory-level process recognition. Android learner access still requires Marc's real-device test."
+    "vetting_note": "SA-first search completed. Rejected assessment material, university-level material, commercial course pages and operational training resources. Marc verified the selected public South African explanatory resource on a real device."
   },
-  "verification_status": "authoritative-KT04-elements-mapped-SA-first-public-theory-resource-selected-render-resource-access-learning-check-offline-tests-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-android-render-passed-media-access-passed-learning-check-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-54",
+    "date": "2026-09-02",
+    "basis": [
+      "Lesson render passed on Marc's real device",
+      "Selected resource access and suitability verified by Marc",
+      "Learning-check verification passed",
+      "Offline operation passed"
+    ],
+    "change_rule": "Change only for authoritative curriculum correction, verified defect, material safety issue, or controlled localisation/resource improvement."
+  }
 }
