@@ -49,18 +49,18 @@
   },
   "media": {
     "required": true,
-    "status": "sa-first-free-tvet-reference-selected-access-test-required",
-    "resource_priority": "South Africa first — free/public — TVET/artisan level — plain vocational context",
-    "title": "Engineering Fabrication / Boilermaking — NC(V) Level 4 Assessment Guidelines",
-    "provider": "Department of Higher Education and Training (DHET)",
+    "status": "PENDING_SA_VOCATIONAL_LEARNER_RESOURCE",
+    "resource_priority": "South Africa first — free/public — TVET/artisan learner material — plain language — mobile-friendly — directly relevant — safe",
+    "title": "Resource pending controlled vetting",
+    "provider": "",
     "country": "South Africa",
-    "url": "https://www.dhet.gov.za/National%20Certificates%20NQF%20Level%204/NC%28Vocational%29%20Assessment%20Guidelines%20Level%204/Engineering%20and%20Related%20Design/Engineering%20Fabrication%20%E2%80%93%20Boiler%20making.pdf",
+    "url": "",
     "language": "English",
-    "focus": "Free official South African TVET-level boilermaking reference supporting welding terminology, specifications and fabrication context. The Companion remains the plain-language layer aligned to the current QCTO curriculum.",
-    "safety_scope": "Reference context only. Do not use linked material as instructions for practical welding or other hazardous work. Practical activity belongs in authorised training under competent supervision.",
+    "focus": "No learner resource is linked until a suitable South African vocational teaching/learning resource is verified. Assessment guidelines, marking guides and exam papers are explicitly excluded as lesson resources.",
+    "safety_scope": "Any future resource must remain theory/safety focused and must not provide practical welding setup or operating instructions.",
     "verified_date": "2026-09-02",
-    "vetting_note": "Selected under the locked SA-first, free/public and TVET/artisan-level resource rule. Current QCTO/CHIETA curriculum remains the authority for occupational scope. Android access test pending."
+    "vetting_note": "Previous DHET NC(V) Assessment Guidelines link rejected and removed. DHET itself distinguishes Subject Guidelines used to prepare and deliver the subject from Assessment Guidelines used for assessment. Search must prioritise learner teaching material rather than assessment material."
   },
-  "verification_status": "authoritative-KT04-elements-mapped-SA-first-free-DHET-TVET-reference-selected-android-render-resource-access-learning-check-offline-tests-pending",
+  "verification_status": "authoritative-KT04-elements-mapped-lesson-built-unsuitable-assessment-resource-removed-SA-vocational-learner-resource-pending",
   "freeze_status": "NOT_FROZEN"
 }
