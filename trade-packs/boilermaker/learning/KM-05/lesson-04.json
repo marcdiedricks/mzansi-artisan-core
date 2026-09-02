@@ -6,7 +6,7 @@
   "module_title": "Assembling and Joining",
   "topic": "KM-05-KT04",
   "title": "Lifting Loads",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Explain lifting concepts at knowledge level, recognise that standard communication, safety controls and approved load information govern lifting work, and understand why load-chart and working-load decisions belong within authorised occupational processes.",
   "curriculum_traceability": {
@@ -43,7 +43,7 @@
   },
   "media": {
     "required": true,
-    "status": "vetted-theory-resource-selected-access-test-required",
+    "status": "vetted-theory-resource-device-access-passed",
     "title": "Planning and organising lifting operations",
     "provider": "UK Health and Safety Executive (HSE)",
     "url": "https://www.hse.gov.uk/work-equipment-machinery/planning-organising-lifting-operations.htm",
@@ -52,6 +52,11 @@
     "safety_scope": "Use only for safety awareness and theory. This Companion does not use the resource to teach crane operation, rigging, slinging, live load calculation or practical lifting procedures.",
     "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT04-traceability-mapped-HSE-theory-resource-selected-android-access-learning-check-offline-tests-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-android-render-passed-media-access-passed-learning-check-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-34",
+    "date": "2026-09-02",
+    "basis": ["MAF-02-31 Core render PASS","MAF-02-32 vetted resource Android access PASS","MAF-02-33 learning check 4/4 PASS","MAF-02-34 Android offline lesson PASS"]
+  }
 }
