@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#1f2937">
+  <title>Mzansi Artisan Core — Trade Pack Test</title>
+  <style>
+    body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f5;color:#18181b}
+    main{max-width:680px;margin:auto;padding:24px 18px}
+    .card{background:white;border:1px solid #d4d4d8;border-radius:14px;padding:20px;box-shadow:0 2px 8px #0000000d}
+    .eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.08em;color:#52525b}
+    h1{font-size:1.6rem;margin:.35rem 0 1rem}
+    #status{font-weight:800;padding:10px 12px;border-radius:10px;background:#e4e4e7}
+    dl{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;margin-top:18px}
+    dt{font-weight:700} dd{margin:0;overflow-wrap:anywhere}
+    .ok{background:#dcfce7!important}.fail{background:#fee2e2!important}
+  </style>
+</head>
+<body>
+<main>
+  <section class="card">
+    <div class="eyebrow">MAF-02-05B • CORE INTEGRATION TEST</div>
+    <h1>Mzansi Artisan Core</h1>
+    <div id="status">LOADING TRADE PACK…</div>
+    <dl id="details" hidden>
+      <dt>Trade</dt><dd id="trade"></dd>
+      <dt>Trade Pack ID</dt><dd id="packId"></dd>
+      <dt>Schema</dt><dd id="schema"></dd>
+      <dt>Status</dt><dd id="packStatus"></dd>
+      <dt>Country</dt><dd id="country"></dd>
+    </dl>
+  </section>
+</main>
+<script type="module">
+  import { TradePackLoader } from './core/trade-pack-loader.js';
+
+  const status = document.getElementById('status');
+  const details = document.getElementById('details');
+
+  try {
+    const loader = new TradePackLoader();
+    const manifest = await loader.load('./trade-packs/boilermaker/manifest.json');
+
+    status.textContent = 'TRADE PACK LOADED';
+    status.classList.add('ok');
+    document.getElementById('trade').textContent = manifest.trade;
+    document.getElementById('packId').textContent = manifest.trade_pack_id;
+    document.getElementById('schema').textContent = manifest.schema;
+    document.getElementById('packStatus').textContent = manifest.status;
+    document.getElementById('country').textContent = manifest.country;
+    details.hidden = false;
+  } catch (error) {
+    status.textContent = `LOAD FAILED: ${error.message}`;
+    status.classList.add('fail');
+  }
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js').catch(console.error);
+  }
+</script>
+</body>
+</html>
