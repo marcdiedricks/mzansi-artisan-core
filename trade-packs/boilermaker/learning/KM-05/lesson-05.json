@@ -6,7 +6,7 @@
   "module_title": "Assembling and Joining",
   "topic": "KM-05-KT05",
   "title": "Hoisting, Lifting and Slinging",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Explain at knowledge level why hoisting, lifting and slinging are controlled occupational activities, how task requirements, authorised equipment decisions and safety controls relate to them, and why practical selection, load determination and operation require competent supervision and approved workplace processes.",
   "curriculum_traceability": {
@@ -14,11 +14,7 @@
     "knowledge_topic": "KM-05-KT05 — Hoisting, lifting and slinging",
     "topic_weight": "15%",
     "verified_topic_elements": ["KT0501 — Hoisting, lifting and slinging techniques and safety — 100%"],
-    "internal_assessment_criteria": [
-      "IAC0501 — Identify, describe and select lifting equipment for specific tasks — 50%",
-      "IAC0502 — Calculate and determine working loads correctly using different methods — 30%",
-      "IAC0503 — Identify and describe safety precautions, processes and equipment — 20%"
-    ],
+    "internal_assessment_criteria": ["IAC0501 — Identify, describe and select lifting equipment for specific tasks — 50%","IAC0502 — Calculate and determine working loads correctly using different methods — 30%","IAC0503 — Identify and describe safety precautions, processes and equipment — 20%"],
     "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
     "source_location": "KM-05-KT05, curriculum page 46",
     "verification_date": "2026-09-02"
@@ -47,15 +43,22 @@
   },
   "media": {
     "required": true,
-    "status": "vetted-theory-resource-selected-access-test-required",
+    "status": "vetted-theory-resource-device-access-passed",
     "title": "Planning and organising lifting operations",
     "provider": "UK Health and Safety Executive (HSE)",
     "url": "https://www.hse.gov.uk/work-equipment-machinery/planning-organising-lifting-operations.htm",
     "language": "English",
     "focus": "Safety-awareness reference supporting the principles that lifting operations require competent planning, appropriate supervision and controlled safe work arrangements.",
     "safety_scope": "Safety-awareness and theory only. Do not use this Companion resource as instruction for rigging, slinging, crane or hoist operation, equipment selection for live work, signalling, or working-load calculations.",
-    "verified_date": "2026-09-02"
+    "verified_date": "2026-09-02",
+    "localisation_note": "International fallback resource. Retained for this frozen lesson because it passed the real-device gate. Future resource vetting follows the locked South-Africa-first hierarchy and this resource is subject to controlled SA-first replacement audit when a suitable authoritative South African equivalent is verified."
   },
-  "verification_status": "authoritative-KT05-traceability-mapped-HSE-theory-resource-selected-android-access-learning-check-offline-tests-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-android-render-passed-media-access-passed-learning-check-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-39",
+    "date": "2026-09-02",
+    "basis": ["MAF-02-36 Core render PASS","MAF-02-37 vetted resource Android access PASS","MAF-02-38 learning check 4/4 PASS","MAF-02-39 Android offline lesson PASS"],
+    "controlled_review_note": "Media localisation is subject to the locked South-Africa-first resource audit; lesson content remains frozen unless authoritative evidence, field evidence or a genuine defect requires controlled change."
+  }
 }
