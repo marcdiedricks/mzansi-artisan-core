@@ -1,0 +1,55 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM05-L05",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-05",
+  "module_title": "Assembling and Joining",
+  "topic": "KM-05-KT05",
+  "title": "Hoisting, Lifting and Slinging",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Explain at knowledge level why hoisting, lifting and slinging are controlled occupational activities, how task requirements, authorised equipment decisions and safety controls relate to them, and why practical selection, load determination and operation require competent supervision and approved workplace processes.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-05",
+    "knowledge_topic": "KM-05-KT05 — Hoisting, lifting and slinging",
+    "topic_weight": "15%",
+    "verified_topic_elements": ["KT0501 — Hoisting, lifting and slinging techniques and safety — 100%"],
+    "internal_assessment_criteria": [
+      "IAC0501 — Identify, describe and select lifting equipment for specific tasks — 50%",
+      "IAC0502 — Calculate and determine working loads correctly using different methods — 30%",
+      "IAC0503 — Identify and describe safety precautions, processes and equipment — 20%"
+    ],
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "source_location": "KM-05-KT05, curriculum page 46",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T4",
+  "safety_boundary": "Knowledge learning only. This lesson does not teach practical rigging or slinging, equipment selection for a live task, crane or hoist operation, working-load calculations for real lifting, attachment methods, signalling procedures, or execution of a lift. Those activities belong in authorised occupational training and workplace processes under competent supervision and applicable controls.",
+  "sections": [
+    {"heading":"1. Hoisting, lifting and slinging are controlled activities","body":"These activities involve moving or supporting loads and can create serious hazards if performed incorrectly. At knowledge level, learners should understand that approved task information, competent people, authorised equipment decisions and workplace controls govern the work."},
+    {"heading":"2. Techniques are task-dependent","body":"The curriculum requires knowledge of hoisting, lifting and slinging techniques and safety. The Companion treats techniques conceptually: different tasks require different authorised arrangements, and a learner should not improvise or transfer an arrangement from one task to another."},
+    {"heading":"3. Equipment decisions require approved information","body":"The curriculum includes identifying, describing and selecting lifting equipment for specific tasks. Here the learner studies the principle that equipment decisions depend on the task, verified equipment information, condition and workplace requirements. This lesson does not provide a practical selection procedure."},
+    {"heading":"4. Working loads are controlled determinations","body":"Working-load determinations depend on verified information and approved occupational methods. The learner should understand why assumptions, estimates or unverified values are unacceptable. Practical calculations for a real lift are outside this Companion lesson."},
+    {"heading":"5. Safety precautions and processes","body":"Safety precautions, defined processes and appropriate equipment form part of controlled lifting work. Learners should recognise that hazards must be addressed through the approved workplace system and competent supervision before any practical activity occurs."},
+    {"heading":"6. Equipment status matters","body":"A lifting arrangement must rely on equipment whose identity, condition and authorised status are established through the workplace system. At knowledge level, the key principle is that uncertain, damaged, unidentified or otherwise questionable equipment must not be treated as suitable simply because it is available."},
+    {"heading":"7. Stop and refer uncertainty","body":"When task information, equipment information, load information or authority is missing or unclear, the safe learning principle is to stop and refer the matter to the competent trainer or supervisor rather than guess or improvise."},
+    {"heading":"8. The learning boundary","body":"Completing this lesson demonstrates knowledge preparation only. It does not establish practical competence or authorise a learner to rig, sling, hoist, lift, select equipment for live work or determine real-world working loads."}
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {"id":"Q1","question":"What should govern hoisting, lifting and slinging work?","options":["Approved task information, competent supervision and workplace controls","Improvisation","Whatever equipment is nearby"],"answer":"Approved task information, competent supervision and workplace controls"},
+      {"id":"Q2","question":"How does this Companion treat lifting-equipment selection?","options":["As a knowledge-level principle requiring approved task and equipment information","As permission to select equipment for live work","As a practical shortcut"],"answer":"As a knowledge-level principle requiring approved task and equipment information"},
+      {"id":"Q3","question":"What should happen when load or equipment information is unclear?","options":["Stop and refer to a competent trainer or supervisor","Estimate the missing information","Continue if the task looks simple"],"answer":"Stop and refer to a competent trainer or supervisor"},
+      {"id":"Q4","question":"Does completing this lesson certify practical hoisting, lifting or slinging competence?","options":["Yes","No"],"answer":"No"}
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "pending-vetting",
+    "focus_required": "Publicly accessible safety-awareness theory resource about controlled lifting planning and risk management, without practical rigging, slinging, crane-operation or live load-calculation instruction."
+  },
+  "verification_status": "authoritative-KT05-elements-and-IAC-traceability-mapped-content-media-and-real-device-tests-pending",
+  "freeze_status": "NOT_FROZEN"
+}
