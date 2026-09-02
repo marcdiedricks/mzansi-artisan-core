@@ -6,7 +6,7 @@
   "module_title": "Assembling and Joining",
   "topic": "KM-05-KT03",
   "title": "Joining Complex Assemblies",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Explain, at knowledge level, the concepts and principles of complex assemblies, how controlled drawings and specifications communicate requirements, and how assembling, fastening, lay-out and fit concepts relate to approved work without providing unsupervised fabrication or joining procedures.",
   "curriculum_traceability": {
@@ -43,7 +43,7 @@
   },
   "media": {
     "required": true,
-    "status": "vetted-theory-resource-selected-replacement-after-device-access-test",
+    "status": "vetted-theory-resource-device-access-passed",
     "title": "Introducing engineering — engineering drawings and assemblies",
     "provider": "The Open University — OpenLearn",
     "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=18349&printable=1",
@@ -52,6 +52,16 @@
     "safety_scope": "Use for drawing and assembly interpretation at theory level only. It does not authorise fabrication, joining, equipment use or other hazardous practical work.",
     "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT03-elements-and-IAC-traceability-mapped-media-replaced-after-McGill-access-denied-real-device-retest-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-android-render-passed-media-access-passed-learning-check-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-29",
+    "date": "2026-09-02",
+    "basis": [
+      "MAF-02-26 Core render PASS",
+      "MAF-02-27 replacement media Android access PASS",
+      "MAF-02-28 learning check 4/4 PASS",
+      "MAF-02-29 Android offline lesson PASS"
+    ]
+  }
 }
