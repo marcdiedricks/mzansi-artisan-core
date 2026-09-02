@@ -1,0 +1,12 @@
+{
+  "trade_id": "ZA-BOILERMAKER",
+  "requested_name": "Boilermaker",
+  "canonical_name": "Boilermaker",
+  "aliases": [],
+  "country": "ZA",
+  "OFO_code": "651302",
+  "occupation_description": "Brownfield pilot identity migrated from the existing Mzansi Boilermaker asset set. Regulatory identity remains subject to MAF Source Authority re-verification before authoritative release.",
+  "related_trades": [],
+  "legacy_names": [],
+  "identity_status": "legacy-ingested-reverification-required"
+}
