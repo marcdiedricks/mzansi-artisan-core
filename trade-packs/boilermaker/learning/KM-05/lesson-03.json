@@ -43,15 +43,15 @@
   },
   "media": {
     "required": true,
-    "status": "vetted-theory-resource-selected",
-    "title": "Working Drawings and Assemblies",
-    "provider": "McGill University — Engineering Design",
-    "url": "https://www.mcgill.ca/engineeringdesign/step-step-design-process/basics-graphics-communication/working-drawings-and-assemblies",
+    "status": "vetted-theory-resource-selected-replacement-after-device-access-test",
+    "title": "Introducing engineering — engineering drawings and assemblies",
+    "provider": "The Open University — OpenLearn",
+    "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=18349&printable=1",
     "language": "English",
-    "focus": "University theory reference explaining assembly drawings, subassemblies, component identification, parts lists and how drawing views communicate relationships between parts.",
-    "safety_scope": "Theory and drawing interpretation only. Use this resource to understand how components and subassemblies are represented and related in controlled drawings. It does not authorise fabrication, joining, equipment use or other practical assembly work.",
+    "focus": "Open educational theory reference showing how engineering drawings represent components, dimensions and assemblies, including exploded representation of a complex assembly.",
+    "safety_scope": "Use for drawing and assembly interpretation at theory level only. It does not authorise fabrication, joining, equipment use or other hazardous practical work.",
     "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT03-elements-and-IAC-traceability-mapped-media-vetted-real-device-media-learning-check-and-offline-tests-pending",
+  "verification_status": "authoritative-KT03-elements-and-IAC-traceability-mapped-media-replaced-after-McGill-access-denied-real-device-retest-pending",
   "freeze_status": "NOT_FROZEN"
 }
