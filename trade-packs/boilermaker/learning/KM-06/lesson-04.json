@@ -49,18 +49,18 @@
   },
   "media": {
     "required": true,
-    "status": "PENDING_SA_VOCATIONAL_LEARNER_RESOURCE",
-    "resource_priority": "South Africa first — free/public — TVET/artisan learner material — plain language — mobile-friendly — directly relevant — safe",
-    "title": "Resource pending controlled vetting",
-    "provider": "",
+    "status": "sa-first-vetted-public-theory-resource-selected-device-access-test-required",
+    "resource_priority": "South Africa first; if no suitable SA resource, international; free/public; learner-appropriate; vocational/artisan level; directly relevant; safe",
+    "title": "A Detailed Outline of Common Welding Processes",
+    "provider": "Babcock International — South Africa",
     "country": "South Africa",
-    "url": "",
+    "url": "https://www.babcock.co.za/news/insights/a-detailed-outline-of-common-welding-processes/467/",
     "language": "English",
-    "focus": "No learner resource is linked until a suitable South African vocational teaching/learning resource is verified. Assessment guidelines, marking guides and exam papers are explicitly excluded as lesson resources.",
-    "safety_scope": "Any future resource must remain theory/safety focused and must not provide practical welding setup or operating instructions.",
+    "focus": "Public South African explanatory article giving a beginner-level overview of common welding-process families, including arc and MIG welding, their general characteristics and applications. Used only to support conceptual recognition of welding processes.",
+    "safety_scope": "Theory reference only. Do not use the resource as instructions for welding setup, machine settings, consumable selection, ignition or practical welding. Practical work belongs in authorised occupational training under competent supervision.",
     "verified_date": "2026-09-02",
-    "vetting_note": "Previous DHET NC(V) Assessment Guidelines link rejected and removed. DHET itself distinguishes Subject Guidelines used to prepare and deliver the subject from Assessment Guidelines used for assessment. Search must prioritise learner teaching material rather than assessment material."
+    "vetting_note": "SA-first search completed. Rejected assessment material, university-level material, commercial course pages and operational training resources. This public South African explanatory article is suitable for theory-level process recognition. Android learner access still requires Marc's real-device test."
   },
-  "verification_status": "authoritative-KT04-elements-mapped-lesson-built-unsuitable-assessment-resource-removed-SA-vocational-learner-resource-pending",
+  "verification_status": "authoritative-KT04-elements-mapped-SA-first-public-theory-resource-selected-render-resource-access-learning-check-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
