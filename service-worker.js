@@ -1,5 +1,5 @@
 // Mzansi Artisan Core — offline foundation with safe update behaviour
-const CACHE_NAME = 'mzansi-artisan-core-v0.1-17';
+const CACHE_NAME = 'mzansi-artisan-core-v0.1-21';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -9,7 +9,8 @@ const CORE_ASSETS = [
   './trade-packs/boilermaker/manifest.json',
   './trade-packs/boilermaker/trade.json',
   './trade-packs/boilermaker/learning/KM-04/lesson-01.json',
-  './trade-packs/boilermaker/learning/KM-05/lesson-01.json'
+  './trade-packs/boilermaker/learning/KM-05/lesson-01.json',
+  './trade-packs/boilermaker/learning/KM-05/lesson-02.json'
 ];
 
 self.addEventListener('install', (event) => {
@@ -59,9 +60,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Trade Pack data changes as occupational content is verified and improved.
-  // Online: get the newest JSON and replace the cached copy.
-  // Offline: use the last successfully cached copy.
+  // Trade Pack data: newest verified content online, last good copy offline.
   if (isTradePackData) {
     event.respondWith(
       fetch(request, { cache: 'no-cache' })
