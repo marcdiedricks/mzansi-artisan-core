@@ -47,10 +47,18 @@
   },
   "media": {
     "required": true,
-    "status": "pending-sa-first-vetting",
+    "status": "sa-first-vetted-theory-resource-selected-access-test-required",
     "resource_priority": "South Africa first",
-    "focus_required": "South African publicly accessible theory or safety-awareness resource supporting heat-treatment concepts without operational thermal-process instruction."
+    "title": "Heat Treatment Practitioner — theory overview",
+    "provider": "Southern African Institute of Welding (SAIW)",
+    "country": "South Africa",
+    "url": "https://www.saiw.co.za/saiw/welding-courses/miscellaneous-courses/heat-treatment-practitioner/",
+    "language": "English",
+    "focus": "South African theory overview covering basic metallurgy, why heat treatment is necessary, pre- and post-weld heat-treatment concepts, normalising, annealing and methods of heat treatment.",
+    "safety_scope": "Use only the theory overview. The Companion does not reproduce or teach the page's practical equipment setup, operating procedures, temperatures, timings or process parameters.",
+    "verified_date": "2026-09-02",
+    "vetting_note": "Selected under the South-Africa-first rule. SAIW is a South African welding institution and the public page directly supports the KT02 theory scope. Learner access must still be confirmed on the real Android device before this resource can pass."
   },
-  "verification_status": "authoritative-KT02-elements-mapped-content-media-and-real-device-tests-pending",
+  "verification_status": "authoritative-KT02-elements-mapped-SA-first-SAIW-theory-resource-selected-android-access-learning-check-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
