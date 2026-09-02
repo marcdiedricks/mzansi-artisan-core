@@ -1,0 +1,58 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM05-L04",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-05",
+  "module_title": "Assembling and Joining",
+  "topic": "KM-05-KT04",
+  "title": "Lifting Loads",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Explain lifting concepts at knowledge level, recognise that standard communication, safety controls and approved load information govern lifting work, and understand why load-chart and working-load decisions belong within authorised occupational processes.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-05",
+    "knowledge_topic": "KM-05-KT04 — Lifting of loads",
+    "topic_weight": "15%",
+    "verified_topic_elements": [
+      "KT0401 — Lifting concepts and methods — 100%"
+    ],
+    "internal_assessment_criteria": [
+      "IAC0401 — Identify and describe overhead-crane hand signals — 40%",
+      "IAC0402 — Identify and describe safety precautions, processes and equipment — 25%",
+      "IAC0403 — Interpret data from load charts — 15%",
+      "IAC0404 — Calculate and determine maximum working loads — 20%"
+    ],
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "source_location": "KM-05-KT04, curriculum pages 45–46",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T4",
+  "safety_boundary": "Knowledge learning only. This lesson does not teach a learner to operate cranes, rig or sling loads, select lifting equipment for real work, direct a live lifting operation, or calculate a real-world safe lifting limit. Lifting work is hazardous and must be performed only through authorised occupational training or workplace processes under competent supervision and applicable controls.",
+  "sections": [
+    {"heading":"1. Lifting is controlled work","body":"Lifting work involves moving loads under controlled occupational conditions. At knowledge level, the learner should understand that lifting decisions depend on approved information, competent people, suitable equipment and established workplace controls rather than personal judgement or improvisation."},
+    {"heading":"2. Lifting concepts and methods","body":"The curriculum requires an understanding of lifting concepts and methods. In this Companion these are treated as theory: the learner recognises that different lifting situations require an authorised method matched to the task and controlled information. No operational lifting procedure is provided."},
+    {"heading":"3. Communication and hand signals","body":"Standardised communication is important because people involved in a lifting operation need a shared, unambiguous way to communicate. The curriculum requires learners to identify and describe overhead-crane hand signals. This lesson treats signals as recognition knowledge only and does not authorise anyone to direct crane operations."},
+    {"heading":"4. Safety precautions and controls","body":"Lifting work requires safety precautions, defined processes and appropriate equipment. Learners should understand the principle that hazards and controls must be addressed through the approved workplace system before lifting activity takes place. This lesson does not provide equipment-use instructions."},
+    {"heading":"5. Load charts are controlled information","body":"A load chart communicates limits and conditions for specified equipment. At knowledge level, learners should understand that chart information must be interpreted in its correct context and must never be guessed, assumed or transferred to unrelated equipment."},
+    {"heading":"6. Working-load calculations","body":"The curriculum includes calculating and determining maximum working loads. In this Companion, the learning boundary is conceptual: learners recognise that such determinations depend on verified data, specified conditions and approved occupational methods. This lesson does not provide formulas or calculations for use in live lifting operations."},
+    {"heading":"7. Stop when information is uncertain","body":"If required lifting information is missing, unclear, inconsistent or outside the learner's authorised role, the correct learning principle is to stop and refer the matter to the competent trainer or supervisor. Uncertainty must never be resolved by guessing."},
+    {"heading":"8. The learning boundary","body":"Understanding lifting terminology, communication, safety controls and controlled load information does not establish practical lifting competence. The Companion supports preparation for supervised training and formal assessment; it does not certify or authorise lifting work."}
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {"id":"Q1","question":"What should govern lifting work?","options":["Approved information, competent supervision and workplace controls","Guesswork","Whatever method seems quickest"],"answer":"Approved information, competent supervision and workplace controls"},
+      {"id":"Q2","question":"Why is standardised communication important in lifting work?","options":["It provides a shared and unambiguous communication system","It replaces competent supervision","It authorises anyone to direct a crane"],"answer":"It provides a shared and unambiguous communication system"},
+      {"id":"Q3","question":"How should load-chart information be treated?","options":["As controlled information used in its correct approved context","As a rough suggestion","As interchangeable between unrelated equipment"],"answer":"As controlled information used in its correct approved context"},
+      {"id":"Q4","question":"Does completing this lesson authorise a learner to perform or direct lifting work?","options":["Yes","No"],"answer":"No"}
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "pending-vetting",
+    "focus_required": "Safe theory resource about lifting safety principles, controlled communication or load-chart awareness without operational lifting, rigging, crane-use or load-calculation instruction."
+  },
+  "verification_status": "authoritative-KT04-elements-and-IAC-traceability-mapped-content-media-and-real-device-tests-pending",
+  "freeze_status": "NOT_FROZEN"
+}
