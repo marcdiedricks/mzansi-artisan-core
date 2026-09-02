@@ -8,27 +8,40 @@
   "title": "Joining Simple Components",
   "status": "factory-built-verification-required",
   "source_mode": "authoritative-gap-build",
-  "objective": "Explain the terminology, controlled information, safety principles and quality checks used when simple components are joined, without providing unsupervised practical joining instructions.",
+  "objective": "Explain the terminology, controlled information, safety principles, assembling and fastening concepts, lay-out and fit concepts, and quality checks associated with simple component joining, without providing unsupervised practical joining instructions.",
   "curriculum_traceability": {
     "module_code": "651302-000-01-KM-05",
     "knowledge_topic": "KM-05-KT01 — Joining of simple components",
+    "topic_weight": "15%",
     "verified_topic_elements": [
       "KT0101 — Terminology, concepts and principles of joining",
       "KT0102 — Drawings, codes and specifications used in joining",
-      "KT0103 — Hazards, risks and safety pertaining to joining"
+      "KT0103 — Hazards, risks and safety pertaining to joining",
+      "KT0104 — Assembling and fastening for simple component assembly",
+      "KT0105 — Lay-out and fit practices for simple components"
+    ],
+    "internal_assessment_criteria": [
+      "IAC0101 — Explain joining terminology, concepts and principles",
+      "IAC0102 — Interpret controlled drawings, codes and specifications used in joining",
+      "IAC0103 — Identify joining hazards and risks and explain their implications for safe work practices",
+      "IAC0104 — Identify and discuss assembling and fastening methods and associated tool/equipment categories at knowledge level",
+      "IAC0105 — Describe lay-out and fitting procedures for simple components at knowledge level"
     ],
     "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "source_location": "KM-05-KT01, curriculum pages 43-44",
     "verification_date": "2026-09-02"
   },
   "safety_level": "T2",
   "safety_boundary": "Knowledge learning only. This lesson does not authorise fabrication, welding, powered-tool use, lifting, hot work or any other hazardous practical activity. Practical joining must occur only in an approved training or workplace environment under applicable controls and competent human supervision.",
   "sections": [
-    {"heading":"1. What does joining mean?","body":"In boilermaking, joining means bringing prepared components together so that they form the required assembly. The learner must understand the names of components, joints and joining methods, and must recognise that the correct method depends on the drawing, specification, material and required finished result."},
-    {"heading":"2. Start with controlled information","body":"A boilermaker should understand the job from the approved drawing, sketch, specification or other controlled information before practical work begins. Important information can include component identity, dimensions, orientation, joint location, material information, tolerances and required quality conditions. A learner must not guess when controlled information is missing or unclear."},
-    {"heading":"3. Joining terminology and principles","body":"Useful knowledge includes recognising the components to be joined, the intended joint, how parts relate to one another, and the difference between temporary positioning and the final approved joint. The purpose of the knowledge lesson is to understand why correct identification, alignment and conformity to the controlled information matter to the finished assembly."},
-    {"heading":"4. Safety comes before practical joining","body":"Joining work may involve hazards associated with materials, sharp edges, heat, electricity, tools, machinery, fumes, movement of components and the surrounding work area. Before practical activity, hazards and applicable workplace controls must be identified by the authorised people responsible for the work. The learner's rule is simple: if the task, condition or instruction is unclear or unsafe, stop and ask the competent supervisor or trainer."},
-    {"heading":"5. Quality means checking against the requirement","body":"A joined component is not judged simply by whether the pieces appear connected. Quality is checked against the controlled requirement. At the knowledge level, learners should understand the importance of correct component identity, orientation, dimensions, alignment, joint location and visible conformity with the approved information."},
-    {"heading":"6. The learning boundary","body":"Knowing the joining principles is different from being authorised or competent to perform a practical joining operation. This Companion helps the learner understand and prepare. Practical competence must be developed and assessed through the required supervised occupational process."}
+    {"heading":"1. What does joining mean?","body":"In boilermaking, joining means bringing prepared components together so that they form the required assembly. At knowledge level, learners should recognise joining terminology and understand that the appropriate joining approach is determined by controlled information, material, component form and the required finished result."},
+    {"heading":"2. Start with controlled information","body":"Before practical work, the learner must be able to interpret the approved drawing, sketch, code, specification or other controlled information relevant to the assembly. This information establishes requirements such as component identity, dimensions, orientation, joint location, material information, tolerances and quality conditions. Missing or unclear information must be referred to the competent trainer or supervisor rather than guessed."},
+    {"heading":"3. Joining terminology and principles","body":"Learners should understand the language used to describe components, joints, assembly relationships and joining methods. They should also understand the distinction between positioning or temporary restraint and the final approved joint, and why alignment and conformity to the controlled requirement affect the finished assembly."},
+    {"heading":"4. Safety comes before practical joining","body":"Joining activities can involve significant workplace hazards. At knowledge level, the learner must be able to recognise that hazards and risks must be identified and controlled under the applicable workplace system before practical activity begins. If the task, condition, equipment or instruction is unclear or unsafe, the learner must stop and refer the matter to the competent supervisor or trainer."},
+    {"heading":"5. Assembling and fastening concepts","body":"Simple component assembly requires an understanding of how prepared parts are brought into the arrangement shown by the controlled information and how an approved fastening or joining method relates to that arrangement. Learners should be able to identify and discuss method and tool or equipment categories in theory. Selection, setup and physical use of workshop equipment remain supervised practical competencies and are not taught as unsupervised procedures in this lesson."},
+    {"heading":"6. Lay-out and fit concepts","body":"Lay-out and fitting are concerned with establishing the required component relationship before an assembly is accepted. At knowledge level, learners should understand the sequence conceptually: interpret the controlled requirement, identify the components and required relationship, recognise relevant reference information, and understand that position, orientation, dimensions, alignment and fit are checked against the approved requirement. Physical marking, fitting, adjustment and tool use belong in supervised practical training."},
+    {"heading":"7. Quality means checking against the requirement","body":"A joined component is not judged simply by whether the pieces appear connected. Quality is evaluated against the controlled requirement. Learners should understand the importance of correct component identity, orientation, dimensions, alignment, joint location, fit and visible conformity with approved information."},
+    {"heading":"8. The learning boundary","body":"Knowledge of joining, assembling, fastening, lay-out and fit does not by itself establish practical competence or authorisation. This Companion supports understanding and preparation. Practical competence must be developed, supervised and assessed through the required occupational process."}
   ],
   "learning_check": {
     "competence_claim": false,
@@ -52,6 +65,6 @@
     "safety_scope": "Theory support only. The resource is selected to reinforce interpretation of controlled drawing information and does not authorise hazardous practical joining work.",
     "verified_date": "2026-09-02"
   },
-  "verification_status": "curriculum-topic-structure-verified-media-selected-acceptance-pending",
+  "verification_status": "authoritative-KT01-elements-and-IAC-traceability-complete-real-device-retest-pending",
   "freeze_status": "NOT_FROZEN"
 }
