@@ -1,6 +1,15 @@
 // Mzansi Artisan Core — minimal offline foundation
-const CACHE_NAME = 'mzansi-artisan-core-v0.1';
-const CORE_ASSETS = ['./', './README.md', './core/storage.js', './core/trade-pack-loader.js'];
+const CACHE_NAME = 'mzansi-artisan-core-v0.1-05b';
+const CORE_ASSETS = [
+  './',
+  './index.html',
+  './README.md',
+  './core/storage.js',
+  './core/trade-pack-loader.js',
+  './trade-packs/boilermaker/manifest.json',
+  './trade-packs/boilermaker/trade.json',
+  './trade-packs/boilermaker/learning/KM-04/lesson-01.json'
+];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CORE_ASSETS)));
