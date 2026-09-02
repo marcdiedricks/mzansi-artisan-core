@@ -1,5 +1,5 @@
 // Mzansi Artisan Core — offline foundation with safe update behaviour
-const CACHE_NAME = 'mzansi-artisan-core-v0.1-31';
+const CACHE_NAME = 'mzansi-artisan-core-v0.1-36';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -12,7 +12,8 @@ const CORE_ASSETS = [
   './trade-packs/boilermaker/learning/KM-05/lesson-01.json',
   './trade-packs/boilermaker/learning/KM-05/lesson-02.json',
   './trade-packs/boilermaker/learning/KM-05/lesson-03.json',
-  './trade-packs/boilermaker/learning/KM-05/lesson-04.json'
+  './trade-packs/boilermaker/learning/KM-05/lesson-04.json',
+  './trade-packs/boilermaker/learning/KM-05/lesson-05.json'
 ];
 self.addEventListener('install',(event)=>{event.waitUntil(caches.open(CACHE_NAME).then((cache)=>cache.addAll(CORE_ASSETS)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',(event)=>{event.waitUntil(caches.keys().then((keys)=>Promise.all(keys.filter((key)=>key.startsWith('mzansi-artisan-core-')&&key!==CACHE_NAME).map((key)=>caches.delete(key)))).then(()=>self.clients.claim()));});
