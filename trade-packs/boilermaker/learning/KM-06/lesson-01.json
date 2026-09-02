@@ -13,11 +13,7 @@
     "module_code": "651302-000-01-KM-06",
     "knowledge_topic": "KM-06-KT01 — Thermal application",
     "topic_weight": "10%",
-    "verified_topic_elements": [
-      "KT0101 — Theory of contraction and expansion — 30%",
-      "KT0102 — Types of hazards such as fire, equipment, ventilation, storage and consumables — 30%",
-      "KT0103 — Heat treatment methods and applications — 40%"
-    ],
+    "verified_topic_elements": ["KT0101 — Theory of contraction and expansion — 30%","KT0102 — Types of hazards such as fire, equipment, ventilation, storage and consumables — 30%","KT0103 — Heat treatment methods and applications — 40%"],
     "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
     "source_location": "KM-06-KT01, curriculum page 50",
     "verification_date": "2026-09-02"
@@ -46,10 +42,18 @@
   },
   "media": {
     "required": true,
-    "status": "pending-sa-first-vetting",
+    "status": "sa-first-vetted-theory-resource-selected-access-test-required",
     "resource_priority": "South Africa first",
-    "focus_required": "South African publicly accessible theory or safety-awareness resource supporting thermal expansion/contraction, heat-treatment concepts or thermal-work safety without practical hazardous-process instructions."
+    "title": "Focus on Standards — Weldability and heat-treatment context",
+    "provider": "Southern African Institute of Welding (SAIW)",
+    "country": "South Africa",
+    "url": "https://www.saiw.co.za/focus-on-standards-iso-tr-5812005/",
+    "language": "English",
+    "focus": "South African theory reference explaining that material properties, temperature effects and pre- or post-treatment such as post-weld heat treatment form part of controlled weldability considerations.",
+    "safety_scope": "Theory reference only. The Companion does not use this resource to teach equipment operation, process settings, practical heating, welding, cutting or heat-treatment procedures.",
+    "verified_date": "2026-09-02",
+    "vetting_note": "Selected after South-Africa-first search across CHIETA/QCTO-aligned and South African welding/research sources. SAIW was preferred as the suitable public South African theory reference for this lesson."
   },
-  "verification_status": "authoritative-KT01-elements-mapped-content-media-and-real-device-tests-pending",
+  "verification_status": "authoritative-KT01-elements-mapped-SA-first-SAIW-theory-resource-selected-android-access-learning-check-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
