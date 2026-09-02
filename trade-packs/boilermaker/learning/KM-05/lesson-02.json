@@ -56,9 +56,15 @@
   },
   "media": {
     "required": true,
-    "status": "pending-vetting",
-    "focus_required": "Safe theory resource supporting interpretation of structural drawings, structural forms, or engineering-drawing representation without teaching hazardous fabrication procedures."
+    "status": "vetted-theory-resource-selected",
+    "title": "Framing schematics",
+    "provider": "SteelConstruction.info — student resource",
+    "url": "https://steelconstruction.info/resources-for-students/framing-schematics/",
+    "language": "English",
+    "focus": "Theory reference illustrating broad steel framing forms and structural component relationships for learner recognition and drawing interpretation.",
+    "safety_scope": "Theory support only. Use this resource to recognise structural forms and relate them to controlled drawings. It does not authorise structural design, fabrication, erection, joining or modification.",
+    "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT02-elements-and-IAC-traceability-mapped-content-acceptance-and-media-pending",
+  "verification_status": "authoritative-KT02-elements-and-IAC-traceability-mapped-media-vetted-real-device-media-and-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
