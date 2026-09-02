@@ -1,0 +1,56 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM06-L02",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-06",
+  "module_title": "Cutting and Welding",
+  "topic": "KM-06-KT02",
+  "title": "Heat Treatment",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Explain at knowledge level why heat treatment is controlled, what broad purposes different treatment concepts serve, and why material condition, engineering requirements and approved procedures matter.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-06",
+    "knowledge_topic": "KM-06-KT02 — Heat Treatment",
+    "topic_weight": "15%",
+    "verified_topic_elements": [
+      "KT0201 — Applications and limitations of various heat treatment methods — 20%",
+      "KT0202 — Precautions and factors — 20%",
+      "KT0203 — Post-weld heat treatment methods — 20%",
+      "KT0204 — Handling requirements — 20%",
+      "KT0205 — Induction heaters and stress relieving ovens and procedures — 20%"
+    ],
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T4",
+  "safety_boundary": "Knowledge and safety-awareness only. This lesson does not provide temperatures, timings, heating or cooling sequences, equipment setup or operation, process parameters, or instructions for performing heat treatment. Practical thermal work belongs in authorised occupational training and workplace processes under competent supervision.",
+  "sections": [
+    {"heading":"1. Purpose of heat treatment","body":"Heat treatment is a controlled engineering process used to influence the condition and properties of a material. The required outcome depends on the material, component and approved engineering requirements."},
+    {"heading":"2. Applications and limitations","body":"Different heat-treatment concepts have different intended applications and limitations. A method suitable for one material or engineering purpose may not be appropriate for another, so treatment decisions must follow verified technical requirements."},
+    {"heading":"3. Precautions and influencing factors","body":"Material type, component condition, engineering requirements and workplace controls can influence thermal-treatment decisions. These factors must be understood before authorised practical work is considered."},
+    {"heading":"4. Post-weld heat-treatment concepts","body":"Post-weld heat treatment refers broadly to controlled thermal treatment applied after welding for specified engineering purposes. Its selection and application depend on approved procedures and material requirements."},
+    {"heading":"5. Material condition and distortion","body":"Thermal changes can influence material condition and dimensional stability. Understanding this relationship helps explain why uncontrolled heating or cooling can create undesirable outcomes."},
+    {"heading":"6. Equipment awareness","body":"The curriculum introduces learners to equipment categories associated with controlled heat treatment, including induction heating and stress-relieving systems. At this stage the learner needs conceptual awareness only, not operational instruction."},
+    {"heading":"7. Handling and workplace control","body":"Heat-treatment work involves hazards and therefore requires authorised procedures, suitable workplace controls and competent supervision. Equipment and materials must be dealt with according to approved workplace requirements."},
+    {"heading":"8. Stop and refer uncertainty","body":"If material identity, engineering requirements, approved procedures or authority are unclear, the correct learning principle is to stop and refer the matter to a competent trainer or supervisor."}
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {"id":"Q1","question":"Why is heat treatment controlled?","options":["Because material and engineering requirements determine the intended outcome","Because every material is treated identically","Only to change appearance"],"answer":"Because material and engineering requirements determine the intended outcome"},
+      {"id":"Q2","question":"Can one heat-treatment concept automatically be used for every material and purpose?","options":["Yes","No"],"answer":"No"},
+      {"id":"Q3","question":"What should guide authorised heat-treatment decisions?","options":["Verified technical requirements and approved procedures","Guesswork","Whatever was used on an unrelated job"],"answer":"Verified technical requirements and approved procedures"},
+      {"id":"Q4","question":"Does this lesson teach how to operate heat-treatment equipment or perform a heat-treatment procedure?","options":["Yes","No"],"answer":"No"}
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "pending-sa-first-vetting",
+    "resource_priority": "South Africa first",
+    "focus_required": "South African publicly accessible theory or safety-awareness resource supporting heat-treatment concepts without operational thermal-process instruction."
+  },
+  "verification_status": "authoritative-KT02-elements-mapped-content-media-and-real-device-tests-pending",
+  "freeze_status": "NOT_FROZEN"
+}
