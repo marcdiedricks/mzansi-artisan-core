@@ -1,25 +1,7 @@
 // Mzansi Artisan Core — offline foundation with safe update behaviour
-const CACHE_NAME = 'mzansi-artisan-core-v0.1-58';
+const CACHE_NAME = 'mzansi-artisan-core-v0.1-60';
 const CORE_ASSETS = [
-  './',
-  './index.html',
-  './README.md',
-  './core/storage.js',
-  './core/trade-pack-loader.js',
-  './trade-packs/boilermaker/manifest.json',
-  './trade-packs/boilermaker/trade.json',
-  './trade-packs/boilermaker/learning/KM-04/lesson-01.json',
-  './trade-packs/boilermaker/learning/KM-05/lesson-01.json',
-  './trade-packs/boilermaker/learning/KM-05/lesson-02.json',
-  './trade-packs/boilermaker/learning/KM-05/lesson-03.json',
-  './trade-packs/boilermaker/learning/KM-05/lesson-04.json',
-  './trade-packs/boilermaker/learning/KM-05/lesson-05.json',
-  './trade-packs/boilermaker/learning/KM-06/lesson-01.json',
-  './trade-packs/boilermaker/learning/KM-06/lesson-02.json',
-  './trade-packs/boilermaker/learning/KM-06/lesson-03.json',
-  './trade-packs/boilermaker/learning/KM-06/lesson-04.json',
-  './trade-packs/boilermaker/learning/KM-06/lesson-05.json',
-  './trade-packs/boilermaker/learning/KM-06/lesson-06.json'
+  './','./index.html','./README.md','./core/storage.js','./core/trade-pack-loader.js','./trade-packs/boilermaker/manifest.json','./trade-packs/boilermaker/trade.json','./trade-packs/boilermaker/learning/KM-04/lesson-01.json','./trade-packs/boilermaker/learning/KM-05/lesson-01.json','./trade-packs/boilermaker/learning/KM-05/lesson-02.json','./trade-packs/boilermaker/learning/KM-05/lesson-03.json','./trade-packs/boilermaker/learning/KM-05/lesson-04.json','./trade-packs/boilermaker/learning/KM-05/lesson-05.json','./trade-packs/boilermaker/learning/KM-06/lesson-01.json','./trade-packs/boilermaker/learning/KM-06/lesson-02.json','./trade-packs/boilermaker/learning/KM-06/lesson-03.json','./trade-packs/boilermaker/learning/KM-06/lesson-04.json','./trade-packs/boilermaker/learning/KM-06/lesson-05.json','./trade-packs/boilermaker/learning/KM-06/lesson-06.json','./trade-packs/boilermaker/learning/KM-06/lesson-07.json'
 ];
 self.addEventListener('install',(event)=>{event.waitUntil(caches.open(CACHE_NAME).then((cache)=>cache.addAll(CORE_ASSETS)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',(event)=>{event.waitUntil(caches.keys().then((keys)=>Promise.all(keys.filter((key)=>key.startsWith('mzansi-artisan-core-')&&key!==CACHE_NAME).map((key)=>caches.delete(key)))).then(()=>self.clients.claim()));});
