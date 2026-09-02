@@ -6,28 +6,15 @@
   "module_title": "Assembling and Joining",
   "topic": "KM-05-KT02",
   "title": "Joining Steel Structures",
-  "status": "factory-built-verification-required",
+  "status": "verified-pilot-frozen",
   "source_mode": "authoritative-gap-build",
   "objective": "Explain, at knowledge level, the types and characteristics of steel structures, how controlled drawings and specifications govern them, and the concepts used to compare joining, joint-strengthening, jig and fixture approaches without providing unsupervised fabrication or joining procedures.",
   "curriculum_traceability": {
     "module_code": "651302-000-01-KM-05",
     "knowledge_topic": "KM-05-KT02 — Joining of steel structures",
     "topic_weight": "25%",
-    "verified_topic_elements": [
-      "KT0201 — Types of steel structures",
-      "KT0202 — Joining methods used for various steel structures used in construction",
-      "KT0203 — Strengthening of joints of steel structures",
-      "KT0204 — Use of jigs and fixtures",
-      "KT0205 — Drawings and specifications pertaining to steel structures"
-    ],
-    "internal_assessment_criteria": [
-      "IAC0201 — Identify steel-structure types and describe characteristics and applications",
-      "IAC0202 — Identify and describe joining-method categories for different steel structures and compare advantages and disadvantages",
-      "IAC0203 — Explain joint-strengthening concepts using safe diagrammatic or freehand-sketch representation",
-      "IAC0204 — Represent steel-structure joining concepts using safe diagrammatic or freehand-sketch representation",
-      "IAC0205 — Identify jig and fixture categories and describe their purpose, advantages and disadvantages",
-      "IAC0206 — Interpret information from steel-structure drawings and specifications and apply relevant knowledge-level calculations"
-    ],
+    "verified_topic_elements": ["KT0201 — Types of steel structures","KT0202 — Joining methods used for various steel structures used in construction","KT0203 — Strengthening of joints of steel structures","KT0204 — Use of jigs and fixtures","KT0205 — Drawings and specifications pertaining to steel structures"],
+    "internal_assessment_criteria": ["IAC0201 — Identify steel-structure types and describe characteristics and applications","IAC0202 — Identify and describe joining-method categories for different steel structures and compare advantages and disadvantages","IAC0203 — Explain joint-strengthening concepts using safe diagrammatic or freehand-sketch representation","IAC0204 — Represent steel-structure joining concepts using safe diagrammatic or freehand-sketch representation","IAC0205 — Identify jig and fixture categories and describe their purpose, advantages and disadvantages","IAC0206 — Interpret information from steel-structure drawings and specifications and apply relevant knowledge-level calculations"],
     "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
     "source_location": "KM-05-KT02, curriculum pages 44-45",
     "verification_date": "2026-09-02"
@@ -65,6 +52,11 @@
     "safety_scope": "Theory support only. Use this resource to recognise structural forms and relate them to controlled drawings. It does not authorise structural design, fabrication, erection, joining or modification.",
     "verified_date": "2026-09-02"
   },
-  "verification_status": "authoritative-KT02-elements-and-IAC-traceability-mapped-media-vetted-real-device-media-and-offline-tests-pending",
-  "freeze_status": "NOT_FROZEN"
+  "verification_status": "authoritative-traceability-complete-media-vetted-android-render-passed-learning-check-passed-offline-passed",
+  "freeze_status": "FROZEN",
+  "freeze_record": {
+    "version": "MAF-02-24",
+    "date": "2026-09-02",
+    "basis": ["MAF-02-21 Core render PASS","MAF-02-22 media integration render PASS","MAF-02-23 learning check 4/4 PASS","MAF-02-24 Android offline lesson PASS"]
+  }
 }
