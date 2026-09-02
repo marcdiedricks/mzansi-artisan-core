@@ -47,18 +47,18 @@
   },
   "media": {
     "required": true,
-    "status": "sa-first-free-theory-reference-selected-access-test-required",
-    "resource_priority": "South Africa first — free/public educational reference",
-    "title": "Materials Science 223 — Heat Treatment of Steel",
-    "provider": "University of Pretoria",
+    "status": "sa-first-free-tvet-reference-selected-access-test-required",
+    "resource_priority": "South Africa first — free/public — TVET/artisan level — plain vocational context",
+    "title": "Engineering Fabrication / Boilermaking — NC(V) Subject Guidelines",
+    "provider": "Department of Higher Education and Training (DHET)",
     "country": "South Africa",
-    "url": "https://www.up.ac.za/yearbooks/2026/EBIT-faculty/UG-modules/view/NMC%20223",
+    "url": "https://www.dhet.gov.za/National%20Certificates%20NQF%20Level%203/NC%28Vocational%29%20Subject%20Guidelines%20Level%203/Engineering%20and%20Related%20Design/Engineering%20Fabrication%20%E2%80%93%20Boiler%20making.pdf",
     "language": "English",
-    "focus": "Free public South African university reference confirming the theory scope of heat treatment of steel, including phase transformations, hardening, tempering, hardenability and heat-treatment concepts.",
-    "safety_scope": "Theory reference only. The Companion does not provide practical heat-treatment procedures, temperatures, timings, equipment setup or operation.",
+    "focus": "Free official South African TVET-level Engineering Fabrication / Boilermaking reference. It gives the learner an appropriate vocational context for steel fabrication and artisan learning; the Companion remains the plain-language layer for the current QCTO Heat Treatment topic.",
+    "safety_scope": "Reference context only. Do not use linked material as instructions for hazardous practical work. Practical thermal, welding or fabrication activity belongs in authorised training under competent supervision.",
     "verified_date": "2026-09-02",
-    "vetting_note": "Replaces the rejected commercial SAIW course page. Selected under the locked SA-first and free/public-resource rule. Real-device access still requires Marc's Android test."
+    "vetting_note": "Selected after structured SA-first search. DHET is the official South African TVET source; the document is public and vocational rather than university-level. DHET's approved NC(V) Level 4 catalogue also lists Engineering Fabrication-Boilermaking learner material, confirming the appropriate education band. Real-device access still requires Marc's Android test."
   },
-  "verification_status": "authoritative-KT02-elements-mapped-SA-first-free-UP-theory-reference-selected-android-access-learning-check-offline-tests-pending",
+  "verification_status": "authoritative-KT02-elements-mapped-SA-first-free-DHET-TVET-reference-selected-android-access-learning-check-offline-tests-pending",
   "freeze_status": "NOT_FROZEN"
 }
