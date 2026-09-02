@@ -1,0 +1,64 @@
+{
+  "schema": "MAF-LESSON-0.1",
+  "lesson_id": "ZA-BOILERMAKER-KM06-L03",
+  "trade_pack_id": "ZA-BOILERMAKER-001",
+  "module": "KM-06",
+  "module_title": "Cutting and Welding",
+  "topic": "KM-06-KT03",
+  "title": "Distortions",
+  "status": "factory-built-verification-required",
+  "source_mode": "authoritative-gap-build",
+  "objective": "Recognise at knowledge level why distortion can occur during fabrication and welding, how it can affect a component, and why prevention or correction decisions must follow approved technical requirements.",
+  "curriculum_traceability": {
+    "module_code": "651302-000-01-KM-06",
+    "knowledge_topic": "KM-06-KT03 — Distortions",
+    "topic_weight": "15%",
+    "verified_topic_elements": [
+      "KT0301 — Causes of distortions — 50%",
+      "KT0302 — Methods to correct distortion — 50%"
+    ],
+    "verified_internal_assessment_criteria": [
+      "IAC0301 — List and describe causes of distortions — 50%",
+      "IAC0302 — List and describe methods of correcting distortions — 50%"
+    ],
+    "primary_source": "QCTO occupational curriculum hosted by CHIETA — Curriculum-6.pdf",
+    "verification_date": "2026-09-02"
+  },
+  "safety_level": "T4",
+  "safety_boundary": "Knowledge and safety-awareness only. This lesson explains distortion conceptually. It does not provide welding parameters, heating instructions, mechanical straightening procedures, equipment setup, or step-by-step methods for correcting distortion. Practical correction belongs in authorised occupational training under competent supervision.",
+  "sections": [
+    {"heading":"1. What is distortion?","body":"Distortion is an unwanted change in the shape or dimensions of a component. In fabrication work it can occur when material is affected unevenly during joining or other thermal processes."},
+    {"heading":"2. Why distortion matters","body":"A distorted component may no longer match its drawing, dimensions, alignment or assembly requirements. Recognising distortion is therefore part of understanding fabrication quality."},
+    {"heading":"3. Causes of distortion","body":"Distortion can be associated with uneven thermal expansion and contraction, the shape and thickness of material, joint arrangement, restraint and the sequence of fabrication work. The exact cause must be assessed against the job requirements rather than guessed."},
+    {"heading":"4. Recognising the effect","body":"Distortion may show as changes in alignment, angle, flatness or overall dimensions. The important learning principle is to compare the component with its approved drawing, specification or workplace requirement."},
+    {"heading":"5. Prevention and correction concepts","body":"Fabrication planning can include controls intended to limit distortion, and workplaces may use approved methods to deal with distortion that has occurred. The suitable response depends on the material, component and authorised procedure."},
+    {"heading":"6. Do not improvise","body":"Trying to correct distortion without knowing the material, specification or approved method can create additional defects or hazards. Correction decisions belong within authorised workplace procedures."},
+    {"heading":"7. Stop and refer","body":"If the cause, acceptable tolerance or approved response is uncertain, stop and refer the component to a competent trainer or supervisor before practical action is taken."}
+  ],
+  "learning_check": {
+    "competence_claim": false,
+    "completion_score": 4,
+    "questions": [
+      {"id":"Q1","question":"What is distortion in fabrication?","options":["An unwanted change in component shape or dimensions","A paint colour change","A material identification number"],"answer":"An unwanted change in component shape or dimensions"},
+      {"id":"Q2","question":"Why can distortion matter?","options":["It can affect dimensions, alignment and assembly requirements","It always improves the component","It only affects appearance"],"answer":"It can affect dimensions, alignment and assembly requirements"},
+      {"id":"Q3","question":"What should a component be compared with when checking whether distortion affects requirements?","options":["Its approved drawing, specification or workplace requirement","A different unrelated job","Guesswork"],"answer":"Its approved drawing, specification or workplace requirement"},
+      {"id":"Q4","question":"What should happen when the cause or approved response is uncertain?","options":["Stop and refer to a competent trainer or supervisor","Try an improvised correction","Ignore the distortion"],"answer":"Stop and refer to a competent trainer or supervisor"}
+    ]
+  },
+  "media": {
+    "required": true,
+    "status": "sa-first-free-tvet-reference-selected-access-test-required",
+    "resource_priority": "South Africa first — free/public — TVET/artisan level — plain vocational context",
+    "title": "Engineering Fabrication / Boilermaking — NC(V) Subject Guidelines",
+    "provider": "Department of Higher Education and Training (DHET)",
+    "country": "South Africa",
+    "url": "https://www.dhet.gov.za/National%20Certificates%20NQF%20Level%203/NC%28Vocational%29%20Subject%20Guidelines%20Level%203/Engineering%20and%20Related%20Design/Engineering%20Fabrication%20%E2%80%93%20Boiler%20making.pdf",
+    "language": "English",
+    "focus": "Free official South African TVET-level Engineering Fabrication / Boilermaking reference. The DHET vocational framework includes welding quality and distortion in the fabrication learning context; the Companion provides the plain-language current-QCTO lesson.",
+    "safety_scope": "Reference context only. Do not use linked material as instructions for hazardous practical work. Practical welding or distortion-correction activity belongs in authorised training under competent supervision.",
+    "verified_date": "2026-09-02",
+    "vetting_note": "Selected under the locked SA-first, free/public, TVET/artisan-level resource rule. DHET is the official South African TVET source. Real-device access requires Android test for this lesson gate."
+  },
+  "verification_status": "authoritative-KT03-elements-and-IACs-mapped-SA-first-free-DHET-TVET-reference-selected-android-render-resource-access-learning-check-offline-tests-pending",
+  "freeze_status": "NOT_FROZEN"
+}
