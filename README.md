@@ -22,3 +22,7 @@ Initial skeleton scope:
 - offline/service-worker foundation
 
 Build doctrine: **ONE SMALL BUILD → TEST → VERIFY → FREEZE → NEXT BUILD**
+
+### Visual-learning reference standard
+
+All artisan trade builds must include the reusable visual-learning reference module defined in `core/VISUAL_LEARNING_REFERENCE_STANDARD.md`. Offline lessons remain complete on-device; vetted online visual resources are optional reinforcement only when connectivity is available.
