@@ -51,18 +51,19 @@ Do not:
 | Diesel Mechanic | `marcdiedricks/diesel-mechanic-companion` | `00_DIESEL_MECHANIC_MASTER_CONTROL.md` | **COMPLETED / FROZEN — 2026-09-23** | REGISTERED | STOP unless verified defect/source change/new approved scope |
 | SparkyPrep / Electrician | `marcdiedricks/mzansi-electrician` | `00_ELECTRICIAN_MASTER_CONTROL.md` | **COMPLETED / FROZEN** | REGISTERED | STOP unless verified defect/source change/new approved scope |
 | Fitter & Turner | `marcdiedricks/fitt-turn-companion-za` | No controlled Mzansi Master Control found yet | **EXISTING + DEPLOYED — NOT YET FACTORY-AUDITED** | DISCOVERED | Next candidate: audit existing build against authoritative SA qualification + Build Intelligence + Foundry; build only real gaps |
-| Automotive / Motor Mechanic | `marcdiedricks/autotech-companion` | `00_AUTOTECH_MASTER_CONTROL.md` | **COMPLETING — CURRICULUM/PRODUCT GATES PASSED; FINAL PRODUCTION/OFFLINE VERIFICATION PENDING** | REGISTERED / ACTIVE | Publish final candidate, verify Build 0.2.0 + service worker + offline relaunch, then freeze |
+| Automotive / Motor Mechanic | `marcdiedricks/autotech-companion` | `00_AUTOTECH_MASTER_CONTROL.md` | **COMPLETED / FROZEN — BUILD 0.2.2 — 2026-09-23** | REGISTERED | STOP unless verified defect/source change/new approved scope |
 | Plumber | No matching GitHub repository or Netlify trade project found in current inventory | — | NOT FOUND IN CURRENT GITHUB/NETLIFY INVENTORY | UNREGISTERED | Re-check only if another known name/source is supplied |
 | Solar | No matching GitHub repository or Netlify trade project found in current inventory | — | NOT FOUND IN CURRENT GITHUB/NETLIFY INVENTORY | UNREGISTERED | Re-check only if another known name/source is supplied |
 | Other trade products | Separate repositories | Must have trade-specific Master Control | NOT YET REGISTERED HERE | DISCOVER EXISTING FIRST | Register one at a time before further build work |
 
 ## CURRENT COMPLETED TRADE COUNT
 
-**4 trades completed/frozen:**
+**5 trades completed/frozen:**
 1. Boilermaker
 2. Welder
 3. SparkyPrep / Electrician
 4. Diesel Mechanic
+5. Automotive / Motor Mechanic — AutoTech Companion
 
 These four must not be sent back into closeout unless a real reopen reason exists.
 
