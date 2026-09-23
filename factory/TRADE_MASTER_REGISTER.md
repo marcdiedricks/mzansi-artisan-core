@@ -126,3 +126,58 @@ Already completed/frozen and not to be reopened without a real reason:
 
 Pipeline rule:
 **FINISH CURRENT TRADE → VERIFY → FREEZE → UPDATE FACTORY REGISTER → MOVE TO NEXT TRADE.**
+
+
+## DEDICATED CHAT THREAD RULE — 2026-09-23
+
+Each artisan trade must have its **own dedicated ChatGPT working thread from the beginning**.
+
+Do not build one artisan trade inside another trade's chat thread.
+
+Required working pattern:
+
+**NEW TRADE THREAD → FACTORY REGISTER → EXISTING REPO / EXISTING GPT ASSETS → TRADE MASTER CONTROL → AUDIT → BUILD ONLY REAL GAPS → TEST → VERIFY → FREEZE → STOP**
+
+When a trade is complete, stop that thread and move to a new dedicated thread for the next trade.
+
+## UPDATED FORWARD PIPELINE
+
+After the already completed/frozen trades, continue in this order:
+
+1. **Automotive / Motor Mechanic — AutoTech Companion**
+   - Existing GitHub repo: `marcdiedricks/autotech-companion`
+   - Existing Netlify site: `https://autotech-companion.netlify.app`
+   - Start a NEW dedicated Motor Mechanic / AutoTech chat thread.
+   - Audit existing build; do not rebuild.
+
+2. **Plumber**
+   - Start a NEW dedicated Plumber chat thread.
+   - Before building, check for existing GPT Companion knowledge files and any prior assets.
+   - Reuse/migrate those files before creating new material.
+
+3. **Solar**
+   - Start a NEW dedicated Solar chat thread.
+   - Before building, check for existing GPT Companion knowledge files and any prior assets.
+   - Reuse/migrate those files before creating new material.
+
+4. **Other artisan GPT Companions**
+   - Includes trades such as Machine Mechanic and any other Companion GPTs previously created.
+   - First recover the GPT knowledge files / source material.
+   - Register the trade in the Factory.
+   - Then create a dedicated trade thread and build from those recovered assets.
+
+## GPT COMPANION RECOVERY RULE
+
+For any trade previously built as a custom GPT / Companion:
+
+**DO NOT START FROM ZERO.**
+
+First:
+1. identify the existing GPT Companion;
+2. retrieve/export the knowledge files or source files;
+3. inventory and verify them;
+4. map them to the authoritative South African qualification/curriculum;
+5. migrate only what is valid and reusable into the trade repository;
+6. build only the genuine gaps.
+
+This follows the same existing-asset-first discipline already used on earlier artisan trades.
