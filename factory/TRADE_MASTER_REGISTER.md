@@ -50,6 +50,10 @@ Do not:
 | Welder | `marcdiedricks/mzansi-welder` | Existing trade Master Control | **COMPLETED / FROZEN** | REGISTERED | STOP unless verified defect/source change/new approved scope |
 | Diesel Mechanic | `marcdiedricks/diesel-mechanic-companion` | `00_DIESEL_MECHANIC_MASTER_CONTROL.md` | **COMPLETED / FROZEN — 2026-09-23** | REGISTERED | STOP unless verified defect/source change/new approved scope |
 | SparkyPrep / Electrician | `marcdiedricks/mzansi-electrician` | `00_ELECTRICIAN_MASTER_CONTROL.md` | **COMPLETED / FROZEN** | REGISTERED | STOP unless verified defect/source change/new approved scope |
+| Fitter & Turner | `marcdiedricks/fitt-turn-companion-za` | No controlled Mzansi Master Control found yet | **EXISTING + DEPLOYED — NOT YET FACTORY-AUDITED** | DISCOVERED | Next candidate: audit existing build against authoritative SA qualification + Build Intelligence + Foundry; build only real gaps |
+| Automotive / Motor Mechanic | `marcdiedricks/autotech-companion` | No controlled Mzansi Master Control found yet | **EXISTING + DEPLOYED — NOT YET FACTORY-AUDITED** | DISCOVERED | Audit after Fitter & Turner unless priority changes |
+| Plumber | No matching GitHub repository or Netlify trade project found in current inventory | — | NOT FOUND IN CURRENT GITHUB/NETLIFY INVENTORY | UNREGISTERED | Re-check only if another known name/source is supplied |
+| Solar | No matching GitHub repository or Netlify trade project found in current inventory | — | NOT FOUND IN CURRENT GITHUB/NETLIFY INVENTORY | UNREGISTERED | Re-check only if another known name/source is supplied |
 | Other trade products | Separate repositories | Must have trade-specific Master Control | NOT YET REGISTERED HERE | DISCOVER EXISTING FIRST | Register one at a time before further build work |
 
 ## CURRENT COMPLETED TRADE COUNT
