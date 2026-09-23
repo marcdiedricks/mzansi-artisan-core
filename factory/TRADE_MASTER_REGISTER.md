@@ -46,11 +46,21 @@ Do not:
 
 | Trade | Product / Repository | Trade Master Control | Current trade status | Factory continuity status | Next real action |
 |---|---|---|---|---|---|
-| Boilermaker | `marcdiedricks/mzansi-boilermaker` | VERIFY current master-control path in trade repo | Trade-level frozen/verified from completed closeout | FACTORY SYNC REQUIRED | Reconcile latest trade freeze into this Factory register only; do not rebuild |
-| Welder | `marcdiedricks/mzansi-welder` | VERIFY current master-control path in trade repo | FROZEN | REGISTERED — SYNC DETAILS PENDING | Record authoritative master-control/file details only; no rebuild |
-| Diesel Mechanic | `marcdiedricks/diesel-mechanic-companion` | `00_DIESEL_MECHANIC_MASTER_CONTROL.md` | **FROZEN — 2026-09-23** | REGISTERED | STOP unless verified defect/source change/new approved scope |
-| SparkyPrep / Electrician | `marcdiedricks/mzansi-electrician` | `00_ELECTRICIAN_MASTER_CONTROL.md` | ACTIVE CLOSEOUT / ACCEPTANCE | REGISTERED | Resume from latest Electrician Master Control only; complete outstanding acceptance/freeze gates |
+| Boilermaker | `marcdiedricks/mzansi-boilermaker` | Existing trade Master Control | **COMPLETED / FROZEN** | REGISTERED | STOP unless verified defect/source change/new approved scope |
+| Welder | `marcdiedricks/mzansi-welder` | Existing trade Master Control | **COMPLETED / FROZEN** | REGISTERED | STOP unless verified defect/source change/new approved scope |
+| Diesel Mechanic | `marcdiedricks/diesel-mechanic-companion` | `00_DIESEL_MECHANIC_MASTER_CONTROL.md` | **COMPLETED / FROZEN — 2026-09-23** | REGISTERED | STOP unless verified defect/source change/new approved scope |
+| SparkyPrep / Electrician | `marcdiedricks/mzansi-electrician` | `00_ELECTRICIAN_MASTER_CONTROL.md` | **COMPLETED / FROZEN** | REGISTERED | STOP unless verified defect/source change/new approved scope |
 | Other trade products | Separate repositories | Must have trade-specific Master Control | NOT YET REGISTERED HERE | DISCOVER EXISTING FIRST | Register one at a time before further build work |
+
+## CURRENT COMPLETED TRADE COUNT
+
+**4 trades completed/frozen:**
+1. Boilermaker
+2. Welder
+3. SparkyPrep / Electrician
+4. Diesel Mechanic
+
+These four must not be sent back into closeout unless a real reopen reason exists.
 
 ## VERIFIED DIESEL MECHANIC RECORD
 
