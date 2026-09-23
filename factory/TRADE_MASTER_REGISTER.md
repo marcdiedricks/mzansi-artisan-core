@@ -107,3 +107,22 @@ The Factory must not declare a trade complete merely because an app exists or ha
 ## PERMANENT PRINCIPLE
 
 > **SEPARATE PRODUCTS. CENTRAL CONTROL. ONE SOURCE OF STATUS. NO LOST CONTINUITY.**
+
+
+## CURRENT ARTISAN PIPELINE ORDER — 2026-09-23
+
+Work through this order unless the user explicitly changes priority:
+
+1. **Fitter & Turner** — existing GitHub repo and live Netlify build; audit/closeout next.
+2. **Automotive / Motor Mechanic (AutoTech Companion)** — existing GitHub repo and live Netlify build; audit/closeout after Fitter & Turner.
+3. **Plumber** — prior learning assets may exist outside the current GitHub/Netlify inventory; no matching controlled repo/live trade site found in the current inventory. Discover/migrate existing assets before any rebuild.
+4. **Solar** — prior learning assets may exist outside the current GitHub/Netlify inventory; no matching controlled repo/live trade site found in the current inventory. Discover/migrate existing assets before any rebuild.
+
+Already completed/frozen and not to be reopened without a real reason:
+- Boilermaker
+- Welder
+- SparkyPrep / Electrician
+- Diesel Mechanic
+
+Pipeline rule:
+**FINISH CURRENT TRADE → VERIFY → FREEZE → UPDATE FACTORY REGISTER → MOVE TO NEXT TRADE.**
